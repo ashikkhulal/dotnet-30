@@ -1,6 +1,6 @@
 # dotnet-class-notes-and-projects
 
-## [DAY-1](./day_1/)
+## [DAY-1](./day_1/class_lessons/)
 
 Day 1 Topics are:
 
@@ -10,9 +10,9 @@ Day 1 Topics are:
 
 Day 1 Project: None
 
-## [DAY-1](./day_1/)
+## [DAY-2](./day_2/class_lessons/)
 
-Day 1 Topics are:
+Day 2 Topics are:
 
 - Variables
 - Data types
@@ -21,4 +21,4 @@ Day 1 Topics are:
 - User input into variables
 - Data types conversion
 
-Day 2 Project: [Simple Calculator](./day_2/assignment/)
+Day 2 Project: [Simple Calculator](./day_2/assignments/)
