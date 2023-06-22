@@ -1,0 +1,15 @@
+C:\Users\ashik\Videos\Captures\Full Stack Dot Net Class\day_3\class_lessons\day_3_class\day_3_class\bin\Debug\net6.0\day_3_class.exe
+C:\Users\ashik\Videos\Captures\Full Stack Dot Net Class\day_3\class_lessons\day_3_class\day_3_class\bin\Debug\net6.0\day_3_class.deps.json
+C:\Users\ashik\Videos\Captures\Full Stack Dot Net Class\day_3\class_lessons\day_3_class\day_3_class\bin\Debug\net6.0\day_3_class.runtimeconfig.json
+C:\Users\ashik\Videos\Captures\Full Stack Dot Net Class\day_3\class_lessons\day_3_class\day_3_class\bin\Debug\net6.0\day_3_class.dll
+C:\Users\ashik\Videos\Captures\Full Stack Dot Net Class\day_3\class_lessons\day_3_class\day_3_class\bin\Debug\net6.0\ref\day_3_class.dll
+C:\Users\ashik\Videos\Captures\Full Stack Dot Net Class\day_3\class_lessons\day_3_class\day_3_class\bin\Debug\net6.0\day_3_class.pdb
+C:\Users\ashik\Videos\Captures\Full Stack Dot Net Class\day_3\class_lessons\day_3_class\day_3_class\obj\Debug\net6.0\day_3_class.csproj.AssemblyReference.cache
+C:\Users\ashik\Videos\Captures\Full Stack Dot Net Class\day_3\class_lessons\day_3_class\day_3_class\obj\Debug\net6.0\day_3_class.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ashik\Videos\Captures\Full Stack Dot Net Class\day_3\class_lessons\day_3_class\day_3_class\obj\Debug\net6.0\day_3_class.AssemblyInfoInputs.cache
+C:\Users\ashik\Videos\Captures\Full Stack Dot Net Class\day_3\class_lessons\day_3_class\day_3_class\obj\Debug\net6.0\day_3_class.AssemblyInfo.cs
+C:\Users\ashik\Videos\Captures\Full Stack Dot Net Class\day_3\class_lessons\day_3_class\day_3_class\obj\Debug\net6.0\day_3_class.csproj.CoreCompileInputs.cache
+C:\Users\ashik\Videos\Captures\Full Stack Dot Net Class\day_3\class_lessons\day_3_class\day_3_class\obj\Debug\net6.0\day_3_class.dll
+C:\Users\ashik\Videos\Captures\Full Stack Dot Net Class\day_3\class_lessons\day_3_class\day_3_class\obj\Debug\net6.0\ref\day_3_class.dll
+C:\Users\ashik\Videos\Captures\Full Stack Dot Net Class\day_3\class_lessons\day_3_class\day_3_class\obj\Debug\net6.0\day_3_class.pdb
+C:\Users\ashik\Videos\Captures\Full Stack Dot Net Class\day_3\class_lessons\day_3_class\day_3_class\obj\Debug\net6.0\day_3_class.genruntimeconfig.cache
