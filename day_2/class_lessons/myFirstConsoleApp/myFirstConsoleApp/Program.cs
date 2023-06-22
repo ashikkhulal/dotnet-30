@@ -47,11 +47,11 @@
             Console.ReadKey();
 
 
-            // Shprtcut Tip: CTRL + L to delete a single line
-            // Shprtcut Tip: CTRL + D to copy a line to one below
-            // Shprtcut Tip: CTRL + K + C to comment
-            // Shprtcut Tip: CTRL + K + U to comment
-            // Shprtcut Tip: CTRL + K + D to format
+            // Shortcut Tip: CTRL + L to delete a single line
+            // Shortcut Tip: CTRL + D to copy a line to one below
+            // Shortcut Tip: CTRL + K + C to comment
+            // Shortcut Tip: CTRL + K + U to comment
+            // Shortcut Tip: CTRL + K + D to format
 
 
             // assignment: enter two numbers and do MDAS

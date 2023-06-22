@@ -6,5 +6,5 @@ build_property.ProjectTypeGuids =
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
-build_property.RootNamespace = myFirstConsoleApp
-build_property.ProjectDir = C:\Users\ashik\Videos\Captures\Full Stack Dot Net Class\Projects\day_2\myFirstConsoleApp\myFirstConsoleApp\
+build_property.RootNamespace = simpleCalculator
+build_property.ProjectDir = C:\Users\ashik\Videos\Captures\Full Stack Dot Net Class\day_2\assignments\simpleCalculator\simpleCalculator\

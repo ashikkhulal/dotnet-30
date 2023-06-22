@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ashik\\Videos\\Captures\\Full Stack Dot Net Class\\day_2\\class_lessons\\myFirstConsoleApp\\myFirstConsoleApp\\myFirstConsoleApp.csproj": {}
+    "C:\\Users\\ashik\\Videos\\Captures\\Full Stack Dot Net Class\\day_2\\assignments\\simpleCalculator\\simpleCalculator\\simpleCalculator.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ashik\\Videos\\Captures\\Full Stack Dot Net Class\\day_2\\class_lessons\\myFirstConsoleApp\\myFirstConsoleApp\\myFirstConsoleApp.csproj": {
+    "C:\\Users\\ashik\\Videos\\Captures\\Full Stack Dot Net Class\\day_2\\assignments\\simpleCalculator\\simpleCalculator\\simpleCalculator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ashik\\Videos\\Captures\\Full Stack Dot Net Class\\day_2\\class_lessons\\myFirstConsoleApp\\myFirstConsoleApp\\myFirstConsoleApp.csproj",
-        "projectName": "myFirstConsoleApp",
-        "projectPath": "C:\\Users\\ashik\\Videos\\Captures\\Full Stack Dot Net Class\\day_2\\class_lessons\\myFirstConsoleApp\\myFirstConsoleApp\\myFirstConsoleApp.csproj",
+        "projectUniqueName": "C:\\Users\\ashik\\Videos\\Captures\\Full Stack Dot Net Class\\day_2\\assignments\\simpleCalculator\\simpleCalculator\\simpleCalculator.csproj",
+        "projectName": "simpleCalculator",
+        "projectPath": "C:\\Users\\ashik\\Videos\\Captures\\Full Stack Dot Net Class\\day_2\\assignments\\simpleCalculator\\simpleCalculator\\simpleCalculator.csproj",
         "packagesPath": "C:\\Users\\ashik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ashik\\Videos\\Captures\\Full Stack Dot Net Class\\day_2\\class_lessons\\myFirstConsoleApp\\myFirstConsoleApp\\obj\\",
+        "outputPath": "C:\\Users\\ashik\\Videos\\Captures\\Full Stack Dot Net Class\\day_2\\assignments\\simpleCalculator\\simpleCalculator\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -1,2 +1,15 @@
-# Visual Studio files to be ignored:
-**.vs**
+# gitignore files list:
+
+
+# Visual Studio temp something
+**/.vs/
+
+# dotnet stuff
+**/project.lock.json
+
+# VS 2015+
+**/.vc.vc.opendb
+**/.vc.db
+
+# Visual Studio Code
+**/.vscode/
