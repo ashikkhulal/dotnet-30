@@ -7,8 +7,9 @@ Day 1 Topics are:
 - Syllabus
 - C# introduction
 - Keywords
+- Console application introduction
 
-Day 1 Project: None
+Day 1 Project: [Console Application Introduction](./day_1/assignment/)
 
 ## [DAY-2](./day_2/class_lesson/)
 

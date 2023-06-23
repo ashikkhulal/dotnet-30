@@ -1,0 +1,15 @@
+C:\Users\ashik\Videos\Captures\Full Stack Dot Net Class\day_1\assignment\myFirstConsoleApp\myFirstConsoleApp\bin\Debug\net6.0\myFirstConsoleApp.exe
+C:\Users\ashik\Videos\Captures\Full Stack Dot Net Class\day_1\assignment\myFirstConsoleApp\myFirstConsoleApp\bin\Debug\net6.0\myFirstConsoleApp.deps.json
+C:\Users\ashik\Videos\Captures\Full Stack Dot Net Class\day_1\assignment\myFirstConsoleApp\myFirstConsoleApp\bin\Debug\net6.0\myFirstConsoleApp.runtimeconfig.json
+C:\Users\ashik\Videos\Captures\Full Stack Dot Net Class\day_1\assignment\myFirstConsoleApp\myFirstConsoleApp\bin\Debug\net6.0\myFirstConsoleApp.dll
+C:\Users\ashik\Videos\Captures\Full Stack Dot Net Class\day_1\assignment\myFirstConsoleApp\myFirstConsoleApp\bin\Debug\net6.0\ref\myFirstConsoleApp.dll
+C:\Users\ashik\Videos\Captures\Full Stack Dot Net Class\day_1\assignment\myFirstConsoleApp\myFirstConsoleApp\bin\Debug\net6.0\myFirstConsoleApp.pdb
+C:\Users\ashik\Videos\Captures\Full Stack Dot Net Class\day_1\assignment\myFirstConsoleApp\myFirstConsoleApp\obj\Debug\net6.0\myFirstConsoleApp.csproj.AssemblyReference.cache
+C:\Users\ashik\Videos\Captures\Full Stack Dot Net Class\day_1\assignment\myFirstConsoleApp\myFirstConsoleApp\obj\Debug\net6.0\myFirstConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ashik\Videos\Captures\Full Stack Dot Net Class\day_1\assignment\myFirstConsoleApp\myFirstConsoleApp\obj\Debug\net6.0\myFirstConsoleApp.AssemblyInfoInputs.cache
+C:\Users\ashik\Videos\Captures\Full Stack Dot Net Class\day_1\assignment\myFirstConsoleApp\myFirstConsoleApp\obj\Debug\net6.0\myFirstConsoleApp.AssemblyInfo.cs
+C:\Users\ashik\Videos\Captures\Full Stack Dot Net Class\day_1\assignment\myFirstConsoleApp\myFirstConsoleApp\obj\Debug\net6.0\myFirstConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\ashik\Videos\Captures\Full Stack Dot Net Class\day_1\assignment\myFirstConsoleApp\myFirstConsoleApp\obj\Debug\net6.0\myFirstConsoleApp.dll
+C:\Users\ashik\Videos\Captures\Full Stack Dot Net Class\day_1\assignment\myFirstConsoleApp\myFirstConsoleApp\obj\Debug\net6.0\ref\myFirstConsoleApp.dll
+C:\Users\ashik\Videos\Captures\Full Stack Dot Net Class\day_1\assignment\myFirstConsoleApp\myFirstConsoleApp\obj\Debug\net6.0\myFirstConsoleApp.pdb
+C:\Users\ashik\Videos\Captures\Full Stack Dot Net Class\day_1\assignment\myFirstConsoleApp\myFirstConsoleApp\obj\Debug\net6.0\myFirstConsoleApp.genruntimeconfig.cache
