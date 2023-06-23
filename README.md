@@ -34,3 +34,21 @@ Day 3 Topics are:
 - Methods or Functions
 
 Day 3 Project: [Simple Calculator](./day_3/assignment/)
+
+## [DAY-4](./day_4/class_lesson/)
+
+Day 4 Topics are:
+
+- C# type casting
+- Conditions
+- If statements
+- Switch statement
+- For loop
+- Foreach loop
+- While Loop
+- Dowhile Loop
+- Arrays
+
+Day 4 Project: [College Admin Portal](./day_4/assignment/)
+
+
