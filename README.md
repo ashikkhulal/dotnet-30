@@ -32,7 +32,7 @@ Day 3 Topics are:
 - Objects
 - Properties
 - Encapsulation
-- Methods or Functions
+- Methods or functions
 
 Day 3 Project: [Simple Calculator](./day_3/assignment/)
 
@@ -46,10 +46,21 @@ Day 4 Topics are:
 - Switch statement
 - For loop
 - Foreach loop
-- While Loop
-- Dowhile Loop
+- While loop
+- Dowhile loop
 - Arrays
 
 Day 4 Project: [College Admin Portal](./day_4/assignment/)
+
+## [DAY-5](./day_5/class_lesson/)
+
+Day 5 Topics are:
+
+- Multidimensional arrays (arrays contd.)
+- Jagged arrays (arrays contd.)
+- Constructors
+- Destructors
+
+Day 5 Project: [College Admin Portal (with all the concepts learned so far)](./day_5/assignment/)
 
 
