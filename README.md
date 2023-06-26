@@ -34,7 +34,7 @@ Day 3 Topics are:
 - Encapsulation
 - Methods or functions
 
-Day 3 Project: [Simple Calculator](./day_3/assignment/)
+Day 3 Project: [Simple Calculator (with all the concepts learned so far till day 3)](./day_3/assignment/)
 
 ## [DAY-4](./day_4/class_lesson/)
 
@@ -61,6 +61,6 @@ Day 5 Topics are:
 - Constructors
 - Destructors
 
-Day 5 Project: [College Admin Portal (with all the concepts learned so far)](./day_5/assignment/)
+Day 5 Project: [College Admin Portal (with all the concepts learned so far till day 5)](./day_5/assignment/)
 
 
