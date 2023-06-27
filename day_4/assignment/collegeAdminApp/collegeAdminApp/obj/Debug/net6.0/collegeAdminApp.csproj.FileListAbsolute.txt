@@ -1,0 +1,15 @@
+C:\Users\ashik\Videos\Captures\Full Stack Dot Net Class\day_4\assignment\collegeAdminApp\collegeAdminApp\bin\Debug\net6.0\collegeAdminApp.exe
+C:\Users\ashik\Videos\Captures\Full Stack Dot Net Class\day_4\assignment\collegeAdminApp\collegeAdminApp\bin\Debug\net6.0\collegeAdminApp.deps.json
+C:\Users\ashik\Videos\Captures\Full Stack Dot Net Class\day_4\assignment\collegeAdminApp\collegeAdminApp\bin\Debug\net6.0\collegeAdminApp.runtimeconfig.json
+C:\Users\ashik\Videos\Captures\Full Stack Dot Net Class\day_4\assignment\collegeAdminApp\collegeAdminApp\bin\Debug\net6.0\collegeAdminApp.dll
+C:\Users\ashik\Videos\Captures\Full Stack Dot Net Class\day_4\assignment\collegeAdminApp\collegeAdminApp\bin\Debug\net6.0\collegeAdminApp.pdb
+C:\Users\ashik\Videos\Captures\Full Stack Dot Net Class\day_4\assignment\collegeAdminApp\collegeAdminApp\obj\Debug\net6.0\collegeAdminApp.csproj.AssemblyReference.cache
+C:\Users\ashik\Videos\Captures\Full Stack Dot Net Class\day_4\assignment\collegeAdminApp\collegeAdminApp\obj\Debug\net6.0\collegeAdminApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ashik\Videos\Captures\Full Stack Dot Net Class\day_4\assignment\collegeAdminApp\collegeAdminApp\obj\Debug\net6.0\collegeAdminApp.AssemblyInfoInputs.cache
+C:\Users\ashik\Videos\Captures\Full Stack Dot Net Class\day_4\assignment\collegeAdminApp\collegeAdminApp\obj\Debug\net6.0\collegeAdminApp.AssemblyInfo.cs
+C:\Users\ashik\Videos\Captures\Full Stack Dot Net Class\day_4\assignment\collegeAdminApp\collegeAdminApp\obj\Debug\net6.0\collegeAdminApp.csproj.CoreCompileInputs.cache
+C:\Users\ashik\Videos\Captures\Full Stack Dot Net Class\day_4\assignment\collegeAdminApp\collegeAdminApp\obj\Debug\net6.0\collegeAdminApp.dll
+C:\Users\ashik\Videos\Captures\Full Stack Dot Net Class\day_4\assignment\collegeAdminApp\collegeAdminApp\obj\Debug\net6.0\refint\collegeAdminApp.dll
+C:\Users\ashik\Videos\Captures\Full Stack Dot Net Class\day_4\assignment\collegeAdminApp\collegeAdminApp\obj\Debug\net6.0\collegeAdminApp.pdb
+C:\Users\ashik\Videos\Captures\Full Stack Dot Net Class\day_4\assignment\collegeAdminApp\collegeAdminApp\obj\Debug\net6.0\collegeAdminApp.genruntimeconfig.cache
+C:\Users\ashik\Videos\Captures\Full Stack Dot Net Class\day_4\assignment\collegeAdminApp\collegeAdminApp\obj\Debug\net6.0\ref\collegeAdminApp.dll

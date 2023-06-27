@@ -63,4 +63,15 @@ Day 5 Topics are:
 
 Day 5 Project: [College Admin Portal (with all the concepts learned so far till day 5)](./day_5/assignment/)
 
+## [DAY-6](./day_6/class_lesson/)
+
+Day 6 Topics are:
+
+- Inheritance in c#
+- Polymorphism
+- Sealed class
+- Abstraction (abstract class and method)
+
+Day 6 Project: [College Admin Portal (with all the concepts learned so far till day 6)](./day_6/assignment/)
+
 

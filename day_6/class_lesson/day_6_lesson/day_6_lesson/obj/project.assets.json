@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ashik\\Videos\\Captures\\Full Stack Dot Net Class\\day_4\\assignment\\collegeAdminApp\\collegeAdminApp\\collegeAdminApp.csproj",
-      "projectName": "collegeAdminApp",
-      "projectPath": "C:\\Users\\ashik\\Videos\\Captures\\Full Stack Dot Net Class\\day_4\\assignment\\collegeAdminApp\\collegeAdminApp\\collegeAdminApp.csproj",
+      "projectUniqueName": "C:\\Users\\ashik\\Videos\\Captures\\Full Stack Dot Net Class\\day_6\\class_lesson\\day_6_lesson\\day_6_lesson\\day_6_lesson.csproj",
+      "projectName": "day_6_lesson",
+      "projectPath": "C:\\Users\\ashik\\Videos\\Captures\\Full Stack Dot Net Class\\day_6\\class_lesson\\day_6_lesson\\day_6_lesson\\day_6_lesson.csproj",
       "packagesPath": "C:\\Users\\ashik\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ashik\\Videos\\Captures\\Full Stack Dot Net Class\\day_4\\assignment\\collegeAdminApp\\collegeAdminApp\\obj\\",
+      "outputPath": "C:\\Users\\ashik\\Videos\\Captures\\Full Stack Dot Net Class\\day_6\\class_lesson\\day_6_lesson\\day_6_lesson\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
