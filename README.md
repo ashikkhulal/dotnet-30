@@ -84,3 +84,14 @@ Day 7 Topics are:
 - Abstraction (abstract class and method)
 
 Day 7 Project: [College Admin Portal (with all the concepts learned so far till day 7)](./day_7/assignment/)
+
+## [DAY-8](./day_8/class_lesson/)
+
+Day 8 Topics are:
+
+- User-defined exceptions in c#
+- C# generics
+- C# collections
+- Delegates
+
+Day 8 Project: [College Admin Portal (with all the concepts learned so far till day 8)](./day_8/assignment/)

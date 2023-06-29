@@ -96,8 +96,8 @@ namespace collegeAdminApp
             //gets the index to remove
             int indexToRemove = Array.IndexOf(_ID, remove);
 
-
-            Console.WriteLine("\nYou want to remove below college details: ");
+            Console.WriteLine("\nYou want to remove below college details: \n");
+            Console.WriteLine("--------------------------------------------------------------------\n");
             Console.WriteLine("ID: " + this.ID[remove - 1]);
             Console.WriteLine("Name: " + this.Name[remove - 1]);
             Console.WriteLine("State: " + this.State[remove - 1]);
@@ -110,8 +110,10 @@ namespace collegeAdminApp
 
             if (Confirm != "Y" || Confirm != "y") 
             {
+                this.ID = this.ID.Where(e => e != ID(remove-1).ToArray();
                 for (int  i = indexToRemove; i < _ID.Length; i++)
                 {
+                    
                     this._ID[i] = this._ID[i + 1];
                     this._Name[i] = this._Name[i + 1];
                     this._State[i] = this._State[i + 1];
