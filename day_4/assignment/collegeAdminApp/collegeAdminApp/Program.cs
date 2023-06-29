@@ -12,9 +12,6 @@ namespace collegeAdminApp
 {
     class Program
     {
-
-        //how many colleges you want to enter:
-        //
         static void Main(string[] args)
         {
 
@@ -49,6 +46,8 @@ namespace collegeAdminApp
             //conditions variable
             int Choice = new int();
             int AddOrRemove = new int();
+            int CountAdd = new int();
+            int CountRemove = new int();
 
             //welcomeDialogue method for a welcome screen
             public void welcomeDialogue()
@@ -72,12 +71,12 @@ namespace collegeAdminApp
 
             public void choiceMethod()
             {
-                Console.WriteLine("\nWhat would you like to do? \n\n1. View Colleges\n2. View Students\n3. View Instructors\n4. Add/Remove a College\n5. Add/Remove a Student\n6. Add/Remove an Instructor\n");
+                Console.WriteLine("\nWhat would you like to do? \n\n1. Add/ Remove colleges\n2. Add/ Remove students\n3. Add/ Remove instructors\n4. View college list\n5. View student list\n6. View instructor list\n");
                 Console.Write("For example: enter 1 if you want to view colleges or enter 4 if you want to add/remove a college and so on: ");
             }
 
 
-            //choice method
+            //condition method
             public void conditionMethod(int option)
             {
                 //conditions variable
@@ -92,77 +91,143 @@ namespace collegeAdminApp
                 //instructor object
                 Instructor instructor = new Instructor();
 
-                //view colleges condition
+                int IsCollegeListEmpty = 0;
+
+                //gets student array size
+                //static int studentArrayLength()
+                //{
+                //    Student studentsize = new Student();
+                //    int StudentArrayLength = studentsize.ID.Length;
+
+                //    return StudentArrayLength;
+                //}
+
+                ////gets instructor list size
+                //static int instructorArrayLength()
+                //{
+                //    Instructor instructorsize = new Instructor();
+                //    int InstructorArrayLength = instructorsize.ID.Length;
+
+                //    return InstructorArrayLength;
+                //}
+
+                //add/ remove colleges condition
                 if (option == 1)
                 {
-                    Console.WriteLine("\nYou entered " + option);
-                    college.getCollegeNames();
+                    //output choice
+                    Console.WriteLine("\nYou entered selection " + option + ".");
 
-
-                }
-                //view students condition
-                else if (option == 2)
-                {
-                    Console.WriteLine("\nYou entered " + option);
-                    
-                    student.getStudentNames();
-
-                }
-                //view instructors condition
-                else if (option == 3)
-                {
-                    Console.WriteLine("\nYou entered " + option);
-                    instructor.getInstructorNames();
-
-                }
-                //add or remove college details
-                else if (option == 4)
-                {
-                    Console.WriteLine("\nYou entered " + option);
-                    Console.WriteLine("\nWhat would you like to do? \n1. Add a college\n2. Remove a college\n");
-                    Console.Write("For example: enter 1 if you want to add colleges or enter 2 if you want to remove a college: ");
+                    Console.WriteLine("What would you like to do? \n\n1. Add colleges\n2. Remove colleges\n");
+                    Console.Write("Enter 1 if you want to add colleges or enter 2 if you want to remove a college: ");
                     AddOrRemove = Convert.ToInt16(Console.ReadLine());
+                    
                     //condition to add a college
                     if (AddOrRemove == 1)
                     {
-                        Console.WriteLine("\nYou entered " + AddOrRemove);
-                        college.addCollegeName();
+                        //output choice
+                        Console.WriteLine("\nYou entered selection " + AddOrRemove + ".");
+
+                        Console.Write("How many entries (IDs) do you want to enter? (For example: enter 5 to add 5 entries): ");
+                        CountAdd = Convert.ToInt16(Console.ReadLine());
+                        college.addCollegeName(CountAdd);
+                        Console.WriteLine("\nYou added below colleges list:\n");
+                        college.getCollegeNames();
+                        IsCollegeListEmpty = CountAdd - 1;
                     }
                     //condition to remove a college
                     else if (AddOrRemove == 2)
                     {
-                        Console.WriteLine("\nYou entered " + AddOrRemove);
-                        //shows college list
-                        college.getCollegeNames();
-                        Console.Write("Enter ID of the college you want to remove: ");
-                        int GetID = Convert.ToInt16(Console.ReadLine());
-                        college.removeCollegeName(GetID);
-                        Console.WriteLine("\nAfter deletion: ");
-                        college.getCollegeNames();
+
+                        //gets college array size
+                         IsCollegeListEmpty = college.ID.Length;
+
+                        if (IsCollegeListEmpty == 0)
+                        {
+                            //output choice
+                            Console.WriteLine("\nYou entered selection " + AddOrRemove + ".");
+
+                            Console.WriteLine("Nothing to remove! The college list is empty.");
+                        }
+                        else
+                        {
+                            //output choice
+                            Console.WriteLine("\nYou entered selection " + AddOrRemove + ".");
+
+                            //shows college list
+                            college.getCollegeNames();
+                            Console.Write("Enter ID of the college you want to remove: ");
+                            int GetID = Convert.ToInt16(Console.ReadLine());
+                            college.removeCollegeName(GetID);
+                            Console.WriteLine("\nAfter deletion: ");
+                            college.getCollegeNames();
+                        }
                     }
                     else
                     {
+                        //output error
                         Console.WriteLine("\nYou entered an invalid input!!!");
                     }
 
                 }
-                //add or remove student details
-                else if (option == 5)
+                //add/remove students condition
+                else if (option == 2)
                 {
-                    Console.WriteLine("\nYou entered " + option);
+                    
 
                 }
-                //add or remove teacher details
+                //add/remove colleges condition
+                else if (option == 3)
+                {
+                    
+
+                }
+                //view colleges list condition
+                else if (option == 4)
+                {
+                    //output choice
+                    Console.WriteLine("\nYou entered selection " + option + ".");
+
+                    //gets college array size
+                    
+
+                    //check if list is empty or not
+                    if (IsCollegeListEmpty == 0)
+                    {
+                        //output list is empty
+                        Console.WriteLine("The college list is empty! Nothing to show.");
+                    }
+                    else
+                    {
+                        //gets college list
+                        college.getCollegeNames();
+                    }
+                }
+                //view students list condition
+                else if (option == 5)
+                {
+                    //output choice
+                    Console.WriteLine("\nYou entered selection " + option + ".");
+
+                    student.getStudentNames();
+
+                }
+                //view instructors list condition
                 else if (option == 6)
                 {
-                    Console.WriteLine("\nYou entered " + option);
+                    //output choice
+                    Console.WriteLine("\nYou entered selection " + option + ".");
+
+                    instructor.getInstructorNames();
 
                 }
                 else
                 {
+                    //output error
                     Console.WriteLine("\nYou entered an invalid input!!!");
                 }
             }
+
+
 
         }
 

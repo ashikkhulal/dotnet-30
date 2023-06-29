@@ -74,4 +74,13 @@ Day 6 Topics are:
 
 Day 6 Project: [College Admin Portal (with all the concepts learned so far till day 6)](./day_6/assignment/)
 
+## [DAY-7](./day_7/class_lesson/)
 
+Day 7 Topics are:
+
+- Interfaces in c#
+- C# enum
+- C# exception (try / catch / finally)
+- Abstraction (abstract class and method)
+
+Day 7 Project: [College Admin Portal (with all the concepts learned so far till day 7)](./day_7/assignment/)

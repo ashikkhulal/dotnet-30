@@ -11,11 +11,17 @@ namespace collegeAdminApp
         //student is initialized with properties: ID, Name, College, CourseEnrolled, and Instructor
 
         //private properties of college object
-        private int[] _ID = new int[] { 1, 2, 3, 4, 5 };
-        private string[] _Name = new string[] { "Julio Middleton", "Piper Wu", "Gianni Velez", "Kareem Molina", "John Middleton" };
-        private string[] _CollegeName = new string[] { "Harvard University", "Princeton University", "Massachusetts Institute of Technology", "Stanford University", "Yale University" };
-        private string[] _CourseEnrolled = new string[] { "English", "Spanish", "Computer Science", "Maths", "Physics" };
-        private string[] _Instructor = new string[] { "John Doe", "Henry Thomas", "John King", "Abraham Lincoln", "John F Kennedy" };
+        //private int[] _ID = new int[] { 1, 2, 3, 4, 5 };
+        //private string[] _Name = new string[] { "Julio Middleton", "Piper Wu", "Gianni Velez", "Kareem Molina", "John Middleton" };
+        //private string[] _CollegeName = new string[] { "Harvard University", "Princeton University", "Massachusetts Institute of Technology", "Stanford University", "Yale University" };
+        //private string[] _CourseEnrolled = new string[] { "English", "Spanish", "Computer Science", "Maths", "Physics" };
+        //private string[] _Instructor = new string[] { "John Doe", "Henry Thomas", "John King", "Abraham Lincoln", "John F Kennedy" };
+
+        private int[] _ID = new int[] {};
+        private string[] _Name = new string[] {};
+        private string[] _CollegeName = new string[] {};
+        private string[] _CourseEnrolled = new string[] {};
+        private string[] _Instructor = new string[] {};
 
         //public properties of college object
         public int[] ID { get { return _ID; } set { _ID = value; } }
@@ -27,7 +33,7 @@ namespace collegeAdminApp
         public void getStudentNames()
         {
             Console.WriteLine("\n-------------------------- Student List -----------------------------");
-            for (int i = 0; i < ID.Length; i++)
+            for (int i = 0; i <= ID.Length; i++)
             {
                 Console.WriteLine("ID: " + this.ID[i]);
                 Console.WriteLine("Name: " + this.Name[i]);
