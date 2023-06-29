@@ -15,7 +15,7 @@ namespace collegeAdminApp
         static void Main(string[] args)
         {
 
-            //welcome dialogue and ascii screen
+            //WelcomeAndChoice object
             WelcomeAndChoice welcomeObj = new WelcomeAndChoice();
             welcomeObj.welcomeDialogue();
 
@@ -23,31 +23,27 @@ namespace collegeAdminApp
             string Continue = "";
 
             //while loop to repeat the program
-            while (Continue != "N")
+            while ( Continue != "N" || Continue != "n" )
             {
 
                 WelcomeAndChoice choiceObj = new WelcomeAndChoice();
-                choiceObj.choiceMethod();
+                choiceObj.addDialogue();
 
-                int Choice = Convert.ToInt16(Console.ReadLine());
+                int choice = Convert.ToInt16(Console.ReadLine());
                 WelcomeAndChoice conditionObj = new WelcomeAndChoice();
-                conditionObj.conditionMethod(Choice);
+                conditionObj.conditionMethod(choice);
 
                 Console.Write("Enter Y to try again or N to exit the program: ");
                 Continue = Console.ReadLine();
             }
-
-
-            //reads user input key before termination of the program
-            Console.ReadKey();
         }
         class WelcomeAndChoice
         {
             //conditions variable
-            int Choice = new int();
-            int AddOrRemove = new int();
-            int CountAdd = new int();
-            int CountRemove = new int();
+            int choice = new int();
+            int addOrRemove = new int();
+            int countAddCollege = new int();
+            int countRemoveCollege = new int();
 
             //welcomeDialogue method for a welcome screen
             public void welcomeDialogue()
@@ -69,9 +65,15 @@ namespace collegeAdminApp
 
             }
 
-            public void choiceMethod()
+            public void addDialogue()
             {
-                Console.WriteLine("\nWhat would you like to do? \n\n1. Add/ Remove colleges\n2. Add/ Remove students\n3. Add/ Remove instructors\n4. View college list\n5. View student list\n6. View instructor list\n");
+                Console.WriteLine("\nWhat would you like to do? \n\n1. Add colleges\n2. Add students\n3. Add instructors\n");
+                Console.Write("For example: enter 1 if you want to view colleges or enter 4 if you want to add/remove a college and so on: ");
+            }
+
+            public void removeDialogue()
+            {
+                Console.WriteLine("\nWhat would you like to do? \n\n1. Remove colleges\n2. Remove students\n3. Remove instructors\n");
                 Console.Write("For example: enter 1 if you want to view colleges or enter 4 if you want to add/remove a college and so on: ");
             }
 
@@ -80,7 +82,7 @@ namespace collegeAdminApp
             public void conditionMethod(int option)
             {
                 //conditions variable
-                int AddOrRemove = new int();
+                string confirmRemove;
 
                 //college object
                 College college = new College();
@@ -91,7 +93,7 @@ namespace collegeAdminApp
                 //instructor object
                 Instructor instructor = new Instructor();
 
-                int IsCollegeListEmpty = 0;
+                int IsCollegeListEmpty = new int();
 
                 //gets student array size
                 //static int studentArrayLength()
@@ -111,31 +113,62 @@ namespace collegeAdminApp
                 //    return InstructorArrayLength;
                 //}
 
+                //4. View college list\n5. View student list\n6. View instructor list\n
+
                 //add/ remove colleges condition
                 if (option == 1)
                 {
                     //output choice
                     Console.WriteLine("\nYou entered selection " + option + ".");
 
-                    Console.WriteLine("What would you like to do? \n\n1. Add colleges\n2. Remove colleges\n");
-                    Console.Write("Enter 1 if you want to add colleges or enter 2 if you want to remove a college: ");
-                    AddOrRemove = Convert.ToInt16(Console.ReadLine());
+                    //output add college dialogue
+                    Console.WriteLine("Okay, now let us add some colleges in our admin portal.\n");
+
+                    //get number of entries
+                    Console.Write("How many entries (IDs) do you want to enter? (For example: enter 5 to add 5 entries): ");
+                    countAddCollege = Convert.ToInt16(Console.ReadLine());
+
+                    //calling add college method
+                    college.addCollegeName(countAddCollege);
+                    Console.WriteLine("\nPerfect! You added below colleges list:");
+                    college.getCollegeNames();
+
+                    //output remove college dialogue
+                    Console.Write("Now, do also you want to remove college? Enter Y for yes or N for No: ");
+                    confirmRemove = Console.ReadLine();
                     
                     //condition to add a college
-                    if (AddOrRemove == 1)
+                    if (confirmRemove == "Y" || confirmRemove == "y" )
                     {
                         //output choice
-                        Console.WriteLine("\nYou entered selection " + AddOrRemove + ".");
+                        Console.WriteLine("\nYou entered selection " + confirmRemove + "(Yes).");
+                        Console.WriteLine("Okay, let us remove college(s) from our admin portal list.");
+                        string continueRemoval = "";
 
-                        Console.Write("How many entries (IDs) do you want to enter? (For example: enter 5 to add 5 entries): ");
-                        CountAdd = Convert.ToInt16(Console.ReadLine());
-                        college.addCollegeName(CountAdd);
-                        Console.WriteLine("\nYou added below colleges list:\n");
-                        college.getCollegeNames();
-                        IsCollegeListEmpty = CountAdd - 1;
+                        //loop to repeat college removal step
+                        while ( continueRemoval != "N" || continueRemoval != "n" )
+                        {
+                            if ( countAddCollege > 0 )
+                            {
+                                Console.Write("\nEnter ID of the college you want to remove: ");
+                                int getID = Convert.ToInt16(Console.ReadLine());
+                                college.removeCollegeName(getID);
+                                countAddCollege--;
+
+                                //output to ask if user wants to remove some more colleges
+                                Console.Write("Do you want to remove any more college(s)? Enter Y to try again or N to exit the program: ");
+                                continueRemoval = Console.ReadLine();
+
+                            }
+                            else
+                            {
+                                Console.Write("\nThere are no more colleges to remove in our admin portal list.");
+                            }
+
+                        }
                     }
                     //condition to remove a college
-                    else if (AddOrRemove == 2)
+                    else if (addOrRemove == 2)
                     {
 
                         //gets college array size
@@ -144,14 +177,14 @@ namespace collegeAdminApp
                         if (IsCollegeListEmpty == 0)
                         {
                             //output choice
-                            Console.WriteLine("\nYou entered selection " + AddOrRemove + ".");
+                            Console.WriteLine("\nYou entered selection " + addOrRemove + ".");
 
                             Console.WriteLine("Nothing to remove! The college list is empty.");
                         }
                         else
                         {
                             //output choice
-                            Console.WriteLine("\nYou entered selection " + AddOrRemove + ".");
+                            Console.WriteLine("\nYou entered selection " + addOrRemove + ".");
 
                             //shows college list
                             college.getCollegeNames();
@@ -188,19 +221,20 @@ namespace collegeAdminApp
                     Console.WriteLine("\nYou entered selection " + option + ".");
 
                     //gets college array size
-                    
+                    college.getCollegeNames();
 
-                    //check if list is empty or not
-                    if (IsCollegeListEmpty == 0)
-                    {
-                        //output list is empty
-                        Console.WriteLine("The college list is empty! Nothing to show.");
-                    }
-                    else
-                    {
-                        //gets college list
-                        college.getCollegeNames();
-                    }
+
+                    ////check if list is empty or not
+                    //if (IsCollegeListEmpty == 0)
+                    //{
+                    //    //output list is empty
+                    //    Console.WriteLine("The college list is empty! Nothing to show.");
+                    //}
+                    //else
+                    //{
+                    //    //gets college list
+                    //    college.getCollegeNames();
+                    //}
                 }
                 //view students list condition
                 else if (option == 5)

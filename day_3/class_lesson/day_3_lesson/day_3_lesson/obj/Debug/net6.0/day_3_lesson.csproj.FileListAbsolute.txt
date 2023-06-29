@@ -1,0 +1,15 @@
+C:\Users\ashik\Videos\Captures\Full Stack Dot Net Class\day_7\day_3_lesson\day_3_lesson\bin\Debug\net6.0\day_3_lesson.exe
+C:\Users\ashik\Videos\Captures\Full Stack Dot Net Class\day_7\day_3_lesson\day_3_lesson\bin\Debug\net6.0\day_3_lesson.deps.json
+C:\Users\ashik\Videos\Captures\Full Stack Dot Net Class\day_7\day_3_lesson\day_3_lesson\bin\Debug\net6.0\day_3_lesson.runtimeconfig.json
+C:\Users\ashik\Videos\Captures\Full Stack Dot Net Class\day_7\day_3_lesson\day_3_lesson\bin\Debug\net6.0\day_3_lesson.dll
+C:\Users\ashik\Videos\Captures\Full Stack Dot Net Class\day_7\day_3_lesson\day_3_lesson\bin\Debug\net6.0\day_3_lesson.pdb
+C:\Users\ashik\Videos\Captures\Full Stack Dot Net Class\day_7\day_3_lesson\day_3_lesson\obj\Debug\net6.0\day_3_lesson.csproj.AssemblyReference.cache
+C:\Users\ashik\Videos\Captures\Full Stack Dot Net Class\day_7\day_3_lesson\day_3_lesson\obj\Debug\net6.0\day_3_lesson.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ashik\Videos\Captures\Full Stack Dot Net Class\day_7\day_3_lesson\day_3_lesson\obj\Debug\net6.0\day_3_lesson.AssemblyInfoInputs.cache
+C:\Users\ashik\Videos\Captures\Full Stack Dot Net Class\day_7\day_3_lesson\day_3_lesson\obj\Debug\net6.0\day_3_lesson.AssemblyInfo.cs
+C:\Users\ashik\Videos\Captures\Full Stack Dot Net Class\day_7\day_3_lesson\day_3_lesson\obj\Debug\net6.0\day_3_lesson.csproj.CoreCompileInputs.cache
+C:\Users\ashik\Videos\Captures\Full Stack Dot Net Class\day_7\day_3_lesson\day_3_lesson\obj\Debug\net6.0\day_3_lesson.dll
+C:\Users\ashik\Videos\Captures\Full Stack Dot Net Class\day_7\day_3_lesson\day_3_lesson\obj\Debug\net6.0\refint\day_3_lesson.dll
+C:\Users\ashik\Videos\Captures\Full Stack Dot Net Class\day_7\day_3_lesson\day_3_lesson\obj\Debug\net6.0\day_3_lesson.pdb
+C:\Users\ashik\Videos\Captures\Full Stack Dot Net Class\day_7\day_3_lesson\day_3_lesson\obj\Debug\net6.0\day_3_lesson.genruntimeconfig.cache
+C:\Users\ashik\Videos\Captures\Full Stack Dot Net Class\day_7\day_3_lesson\day_3_lesson\obj\Debug\net6.0\ref\day_3_lesson.dll
