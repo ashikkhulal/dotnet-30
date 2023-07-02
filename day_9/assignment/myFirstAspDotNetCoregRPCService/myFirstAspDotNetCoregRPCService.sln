@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "myFirstAspDotNetCoregRPCService", "myFirstAspDotNetCoregRPCService\myFirstAspDotNetCoregRPCService.csproj", "{3DC4C099-5EB8-4026-9492-2D62B24ADBCD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3DC4C099-5EB8-4026-9492-2D62B24ADBCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DC4C099-5EB8-4026-9492-2D62B24ADBCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DC4C099-5EB8-4026-9492-2D62B24ADBCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DC4C099-5EB8-4026-9492-2D62B24ADBCD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9AE057C5-F9FA-4F03-BF50-15C71AF25190}
+	EndGlobalSection
+EndGlobal

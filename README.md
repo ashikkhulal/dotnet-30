@@ -95,3 +95,11 @@ Day 8 Topics are:
 - Delegates
 
 Day 8 Project: [College Admin Portal (with all the concepts learned so far till day 8)](./day_8/assignment/)
+
+## [DAY-9](./day_9/class_lesson/)
+
+Day 9 Topics are:
+
+- ASP.NET Introduction
+
+Day 9 Project: [ASP.NET Introduction Projects](./day_9/assignment/)

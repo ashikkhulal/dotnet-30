@@ -1,0 +1,13 @@
+﻿{
+  "profiles": {
+    "myFirstAspDotNetCoregRPCService": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": false,
+      "applicationUrl": "http://localhost:5049;https://localhost:7276",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
