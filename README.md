@@ -103,3 +103,10 @@ Day 9 Topics are:
 - ASP.NET Introduction
 
 Day 9 Project: [ASP.NET Introduction Projects](./day_9/assignment/)
+
+
+## [Other Projects](./other_projects/)
+
+Other sample projects using C#:
+
+- [My Notepad](./other_projects/)
