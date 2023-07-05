@@ -1,4 +1,4 @@
-﻿//references of .Net framework namespaces
+﻿//References of .Net framework namespaces
 using System;
 using System.Buffers.Text;
 using System.Collections;
@@ -12,10 +12,10 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
 
-//namespace name
+//Namespace name
 namespace day_1_lessons
 {
-    //class name
+    //Class name
 	class Program
 	{
         //C# Version History:
@@ -33,9 +33,9 @@ namespace day_1_lessons
         //C# 9.0    .NET 5.0                Visual Studio 2019          Records, Init-only properties, Top-level statements, Init accessors and readonly fields, With-expressions, Value-based equality
         //C# 10.0	.NET 6.0                Visual Studio 2022          Record structs, Global using directives, File-scoped namespace declaration, Extended Proptery Patterns, Null Parameter Checking, Constant interpolated strings
 
-        //C# can be used in a window-based, web-based, or console application. To start with, we will create a console application to work with C#.
+        //C# can be used in a window-based, web-based, or console application. This current application is a console application type.
 
-        //method
+        //Method
         static void Main(string[] args)
 		{
             //data-type variable = value of variable
@@ -43,13 +43,13 @@ namespace day_1_lessons
             Console.WriteLine(message);
 		}
 
-        //let's understand the above C# structure:
-        //1. every .NET application takes the reference of the necessary .NET framework namespaces that it is planning to use with the using keyword, e.g., using System.Text.
-        //2. declare the namespace for the current class using the namespace keyword, e.g., namespace CSharpTutorials.FirstProgram
-        //3. we then declared a class using the class keyword: class Program
-        //4. the Main() is a method of Program class is the entry point of the console application.
-        //5. string is a data type.
-        //6. a message is a variable that holds the value of a specified data type.
+        //Let us understand the above C# structure:
+        //1. Every .NET application takes the reference of the necessary .NET framework namespaces that it is planning to use with the using keyword, e.g., using System.Text.
+        //2. Declare the namespace for the current class using the namespace keyword, e.g., namespace CSharpTutorials.FirstProgram
+        //3. We then declared a class using the class keyword: class Program
+        //4. The Main() is a method of Program class is the entry point of the console application.
+        //5. String is a data type.
+        //6. A message is a variable that holds the value of a specified data type.
         //7."Hello World!!" is the value of the message variable.
         //8. The Console.WriteLine() is a static method, which is used to display a text on the console.
 
