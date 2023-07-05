@@ -104,6 +104,13 @@ Day 9 Topics are:
 
 Day 9 Project: [ASP.NET Introduction Projects](./day_9/assignment/)
 
+## [DAY-10](./day_10/class_lesson/)
+
+Day 10 Topics are:
+
+- HTML Introduction
+
+Day 10 Project: [HTML Introduction Projects](./day_10/assignment/)
 
 ## [Other Projects](./other_projects/)
 
