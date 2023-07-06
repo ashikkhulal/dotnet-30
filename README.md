@@ -2,7 +2,7 @@
 
 ## [DAY-1](./day_1/class_lesson/)
 
-Day 1 Topics are:
+Day 1 Topic(s) is/are:
 
 - Syllabus
 - C# introduction
@@ -13,7 +13,7 @@ Day 1 Project: [Console Application Introduction](./day_1/assignment/)
 
 ## [DAY-2](./day_2/class_lesson/)
 
-Day 2 Topics are:
+Day 2 Topic(s) is/are:
 
 - Variables
 - Data types
@@ -26,7 +26,7 @@ Day 2 Project: [Simple Calculator](./day_2/assignment/)
 
 ## [DAY-3](./day_3/class_lesson/)
 
-Day 3 Topics are:
+Day 3 Topic(s) is/are:
 
 - Class
 - Objects
@@ -38,7 +38,7 @@ Day 3 Project: [Simple Calculator (with all the concepts learned so far till day
 
 ## [DAY-4](./day_4/class_lesson/)
 
-Day 4 Topics are:
+Day 4 Topic(s) is/are:
 
 - C# type casting
 - Conditions
@@ -54,7 +54,7 @@ Day 4 Project: [College Admin Portal](./day_4/assignment/)
 
 ## [DAY-5](./day_5/class_lesson/)
 
-Day 5 Topics are:
+Day 5 Topic(s) is/are:
 
 - Multidimensional arrays (arrays contd.)
 - Jagged arrays (arrays contd.)
@@ -65,7 +65,7 @@ Day 5 Project: [College Admin Portal (with all the concepts learned so far till 
 
 ## [DAY-6](./day_6/class_lesson/)
 
-Day 6 Topics are:
+Day 6 Topic(s) is/are:
 
 - Inheritance in c#
 - Polymorphism
@@ -76,7 +76,7 @@ Day 6 Project: [College Admin Portal (with all the concepts learned so far till 
 
 ## [DAY-7](./day_7/class_lesson/)
 
-Day 7 Topics are:
+Day 7 Topic(s) is/are:
 
 - Interfaces in c#
 - C# enum
@@ -87,7 +87,7 @@ Day 7 Project: [College Admin Portal (with all the concepts learned so far till 
 
 ## [DAY-8](./day_8/class_lesson/)
 
-Day 8 Topics are:
+Day 8 Topic(s) is/are:
 
 - User-defined exceptions in c#
 - C# generics
@@ -98,19 +98,27 @@ Day 8 Project: [College Admin Portal (with all the concepts learned so far till 
 
 ## [DAY-9](./day_9/class_lesson/)
 
-Day 9 Topics are:
+Day 9 Topic(s) is/are:
 
 - ASP.NET Introduction
 
-Day 9 Project: [ASP.NET Introduction Projects](./day_9/assignment/)
+Day 9 Project: [ASP.NET Introduction Project](./day_9/assignment/)
 
 ## [DAY-10](./day_10/class_lesson/)
 
-Day 10 Topics are:
+Day 10 Topic(s) is/are:
 
 - HTML Introduction
 
-Day 10 Project: [HTML Introduction Projects](./day_10/assignment/)
+Day 10 Project: [HTML Introduction Project](./day_10/assignment/)
+
+## [DAY-11](./day_11/class_lesson/)
+
+Day 11 Topic(s) is/are:
+
+- Diving deeper into ASP.NET Web Application
+
+Day 11 Project: [ASP.NET Web Project](./day_11/assignment/)
 
 ## [Other Projects](./other_projects/)
 
