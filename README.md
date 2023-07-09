@@ -1,6 +1,6 @@
 # dotnet-class-notes-and-projects
 
-## [DAY-1](./day_1/class_lesson/)
+## [DAY-1](./day_01/class_lesson/)
 
 Day 1 Topic(s) is/are:
 
@@ -9,9 +9,9 @@ Day 1 Topic(s) is/are:
 - Keywords
 - Console application introduction
 
-Day 1 Project: [Console Application Introduction](./day_1/assignment/)
+Day 1 Project: [Console Application Introduction](./day_01/assignment/)
 
-## [DAY-2](./day_2/class_lesson/)
+## [DAY-2](./day_02/class_lesson/)
 
 Day 2 Topic(s) is/are:
 
@@ -22,9 +22,9 @@ Day 2 Topic(s) is/are:
 - User input into variables
 - Data types conversion
 
-Day 2 Project: [Simple Calculator](./day_2/assignment/)
+Day 2 Project: [Simple Calculator](./day_02/assignment/)
 
-## [DAY-3](./day_3/class_lesson/)
+## [DAY-3](./day_03/class_lesson/)
 
 Day 3 Topic(s) is/are:
 
@@ -34,9 +34,9 @@ Day 3 Topic(s) is/are:
 - Encapsulation
 - Methods or functions
 
-Day 3 Project: [Simple Calculator (with all the concepts learned so far till day 3)](./day_3/assignment/)
+Day 3 Project: [Simple Calculator (with all the concepts learned so far till day 3)](./day_03/assignment/)
 
-## [DAY-4](./day_4/class_lesson/)
+## [DAY-4](./day_04/class_lesson/)
 
 Day 4 Topic(s) is/are:
 
@@ -50,9 +50,9 @@ Day 4 Topic(s) is/are:
 - Dowhile loop
 - Arrays
 
-Day 4 Project: [College Admin Portal](./day_4/assignment/)
+Day 4 Project: [College Admin Portal](./day_04/assignment/)
 
-## [DAY-5](./day_5/class_lesson/)
+## [DAY-5](./day_05/class_lesson/)
 
 Day 5 Topic(s) is/are:
 
@@ -61,9 +61,9 @@ Day 5 Topic(s) is/are:
 - Constructors
 - Destructors
 
-Day 5 Project: [College Admin Portal (with all the concepts learned so far till day 5)](./day_5/assignment/)
+Day 5 Project: [College Admin Portal (with all the concepts learned so far till day 5)](./day_05/assignment/)
 
-## [DAY-6](./day_6/class_lesson/)
+## [DAY-6](./day_06/class_lesson/)
 
 Day 6 Topic(s) is/are:
 
@@ -72,9 +72,9 @@ Day 6 Topic(s) is/are:
 - Sealed class
 - Abstraction (abstract class and method)
 
-Day 6 Project: [College Admin Portal (with all the concepts learned so far till day 6)](./day_6/assignment/)
+Day 6 Project: [College Admin Portal (with all the concepts learned so far till day 6)](./day_06/assignment/)
 
-## [DAY-7](./day_7/class_lesson/)
+## [DAY-7](./day_07/class_lesson/)
 
 Day 7 Topic(s) is/are:
 
@@ -83,9 +83,9 @@ Day 7 Topic(s) is/are:
 - C# exception (try / catch / finally)
 - Abstraction (abstract class and method)
 
-Day 7 Project: [College Admin Portal (with all the concepts learned so far till day 7)](./day_7/assignment/)
+Day 7 Project: [College Admin Portal (with all the concepts learned so far till day 7)](./day_07/assignment/)
 
-## [DAY-8](./day_8/class_lesson/)
+## [DAY-8](./day_08/class_lesson/)
 
 Day 8 Topic(s) is/are:
 
@@ -94,15 +94,15 @@ Day 8 Topic(s) is/are:
 - C# collections
 - Delegates
 
-Day 8 Project: [College Admin Portal (with all the concepts learned so far till day 8)](./day_8/assignment/)
+Day 8 Project: [College Admin Portal (with all the concepts learned so far till day 8)](./day_08/assignment/)
 
-## [DAY-9](./day_9/class_lesson/)
+## [DAY-9](./day_09/class_lesson/)
 
 Day 9 Topic(s) is/are:
 
 - ASP.NET Introduction
 
-Day 9 Project: [ASP.NET Introduction Project](./day_9/assignment/)
+Day 9 Project: [ASP.NET Introduction Project](./day_09/assignment/)
 
 ## [DAY-10](./day_10/class_lesson/)
 
@@ -116,10 +116,22 @@ Day 10 Project: [HTML Introduction Project](./day_10/assignment/)
 
 Day 11 Topic(s) is/are:
 
-- Diving deeper into ASP.NET Web Application
+- Diving deeper into ASP.NET web application
 
 Day 11 Project: [ASP.NET Web Project](./day_11/assignment/)
 
+## [DAY-12](./day_12/class_lesson/)
+
+Day 12 Topic(s) is/are:
+
+- Diving deeper into ASP.NET web application components
+
+Day 12 Project: [ASP.NET Web Page Life Cycle Event Project](./day_12/assignment/)
+
+
+
+
+---
 ## [Other Projects](./other_projects/)
 
 Other sample projects using C#:
