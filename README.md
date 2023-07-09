@@ -18,6 +18,7 @@ Day 2 Topic(s) is/are:
 - Variables
 - Data types
 - String concatenation
+- String interpolation
 - Print output
 - User input into variables
 - Data types conversion
