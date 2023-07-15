@@ -111,7 +111,7 @@ Day 10 Topic(s) is/are:
 
 - HTML Introduction
 
-Day 10 Project: [HTML Introduction Project](./day_10/assignment/)
+Day 10 Project: [HTML Deeper dive (Self Study)](./day_10/assignment/)
 
 ## [DAY-11](./day_11/class_lesson/)
 
