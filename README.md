@@ -129,8 +129,64 @@ Day 12 Topic(s) is/are:
 
 Day 12 Project: [ASP.NET Web Page Life Cycle Event Project](./day_12/assignment/)
 
+## [DAY-13](./day_13/class_lesson/)
 
+Day 13 Topic(s) is/are:
 
+- 
+
+Day 13 Project: [](./day_13/assignment/)
+
+## [DAY-14](./day_14/class_lesson/)
+
+Day 14 Topic(s) is/are:
+
+- 
+
+Day 14 Project: [](./day_14/assignment/)
+
+## [DAY-15](./day_15/class_lesson/)
+
+Day 15 Topic(s) is/are:
+
+- 
+
+Day 15 Project: [](./day_15/assignment/)
+
+## [DAY-16](./day_16/class_lesson/)
+
+Day 16 Topic(s) is/are:
+
+- 
+
+Day 16 Project: [](./day_16/assignment/)
+
+## [DAY-17](./day_17/class_lesson/)
+
+Day 17 Topic(s) is/are:
+
+- 
+
+Day 17 Project: [](./day_17/assignment/)
+
+## [DAY-18](./day_12/class_lesson/)
+
+Day 18 Topic(s) is/are:
+
+- SQL deeper dive into commands
+
+Day 18 Project: [SQL Play Around Project](./day_18/assignment/)
+
+## [DAY-19](./day_19/class_lesson/)
+
+Day 19 Topic(s) is/are:
+
+- Primary key
+- Unique key
+- Composite key
+- Foreign key
+
+Day 19 Project: [SQL Play Around Project](./day_19/assignment/)
 
 ---
 ## [Other Projects](./other_projects/)
