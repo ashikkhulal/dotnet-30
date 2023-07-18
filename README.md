@@ -173,20 +173,29 @@ Day 17 Project: [](./day_17/assignment/)
 
 Day 18 Topic(s) is/are:
 
-- SQL deeper dive into commands
+- Deeper dive into sql commands/ syntaxs
 
-Day 18 Project: [SQL Play Around Project](./day_18/assignment/)
+Day 18 Project: [SQL Lesson 18 Revision / Play Around Project](./day_18/assignment/)
 
 ## [DAY-19](./day_19/class_lesson/)
 
 Day 19 Topic(s) is/are:
 
-- Primary key
-- Unique key
-- Composite key
-- Foreign key
+- SQL primary key
+- SQL unique key
+- SQL composite key
+- SQL foreign key
 
-Day 19 Project: [SQL Play Around Project](./day_19/assignment/)
+Day 19 Project: [SQL Lesson 19 Revision / Play Around Project](./day_19/assignment/)
+
+## [DAY-20](./day_20/class_lesson/)
+
+Day 20 Topic(s) is/are:
+
+- SQL views
+- SQL Joins
+
+Day 20 Project: [SQL Lesson 20 Revision / Play Around Project](./day_20/assignment/)
 
 ---
 ## [Other Projects](./other_projects/)
