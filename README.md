@@ -197,6 +197,15 @@ Day 20 Topic(s) is / are:
 
 Day 20 Project: [SQL Lesson 20 Revision / Play Around Project](./day_20/assignment/)
 
+## [DAY-21](./day_21/class_lesson/)
+
+Day 21 Topic(s) is / are:
+
+- SQL Store Procedure
+- SQL Functions
+
+Day 21 Project: [SQL Lesson 21 Revision / Play Around Project](./day_21/assignment/)
+
 ---
 ## [Other Projects](./other_projects/)
 
