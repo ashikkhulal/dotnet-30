@@ -1,7 +1,7 @@
 /*
 Day 20 topics:
-1. SQL views
-2. SQL joins
+1. SQL Views
+2. SQL Joins
 */
 
 USE MyLocalDb;
@@ -52,38 +52,108 @@ VALUES
     (9, 'JOHN', 'MOTTO', 130000.00, 'SR. ACCOUNTANT', GETDATE()),
 	(10, 'PLANK', 'ONE', 100000.00, 'JR. ACCOUNTANT', GETDATE());
 
---SQL views: replica of the some or all of table(s) for data presentation
+--SQL Views: replica of the some or all of table(s) for data presentation
+
+/*
+In SQL, a view is a virtual table based on the result-set of an SQL statement.
+A view contains rows and columns, just like a real table. The fields in a view are fields from one or more real tables in the database.
+You can add SQL statements and functions to a view and present the data as if the data were coming from one single table.
+A view is created with the CREATE VIEW statement.
+
+SYNTAX:
+
+CREATE VIEW view_name AS
+SELECT column1, column2, ...
+FROM table_name
+WHERE condition;
+
+- SQL Updating a View: A view can be updated with the CREATE OR REPLACE VIEW statement.
+
+SYNTAX:
+
+CREATE OR REPLACE VIEW view_name AS
+SELECT column1, column2, ...
+FROM table_name
+WHERE condition;
+
+- SQL Dropping a View: A view is deleted with the DROP VIEW statement.
+
+SYNTAX:
+
+DROP VIEW view_name;
+*/
+
 CREATE VIEW APPLE_FIVE_EMPLOYEE_DATA AS
 SELECT TOP 5 * FROM EMPLOYEE_APPLE;
 
 CREATE VIEW GOOGLE_FIVE_EMPLOYEE_DATA AS
 SELECT TOP 5 * FROM EMPLOYEE_GOOGLE;
 
+CREATE OR REPLACE VIEW APPLE_FIVE_EMPLOYEE_DATA AS
+SELECT TOP 5 * FROM EMPLOYEE_APPLE;
+
+CREATE OR REPLACE VIEW GOOGLE_FIVE_EMPLOYEE_DATA AS
+SELECT TOP 5 * FROM EMPLOYEE_GOOGLE;
+
+DROP VIEW APPLE_FIVE_EMPLOYEE_DATA;
+
+DROP VIEW GOOGLE_FIVE_EMPLOYEE_DATA;
+
 --returns number of rows as a count value
 SELECT COUNT(*) FROM EMPLOYEE_APPLE;
 
---SQL joins:
+--SQL Joins:
 /*
-Unmatched join type:
+A JOIN clause is used to combine rows from two or more tables, based on a related column between them.
+
+Unmatched Join type(s):
 - Cross join: also a raw join; simple multiplication of tables which are being joined
 
-Matched join type:
+Matched Join type(s):
 ON keyword is used to match the data
-- Inner join: matching values from both the tables
+- Inner join: Returns records that have matching values in both tables
 
 SYNTAX:
-SELECT <> FROm <TABLE_1> INNER JOIN <TABLE_2> ON TABLE_1.COLUMN = TABLE_2.COLUMN;
+
+SELECT column_name(s)
+FROM table1
+INNER JOIN table2
+ON table1.column_name = table2.column_name;
 
 - We can add more inner join as necessary with on conditions.
-
 */
+
 SELECT * FROM EMPLOYEE_APPLE INNER JOIN EMPLOYEE_GOOGLE ON EMPLOYEE_APPLE.APPLE_ID = EMPLOYEE_GOOGLE.GOOGLE_ID;
 
 /*
 - Outer join:
-1. Left outer join: left hand side full records and right hand side only matching records
-2. Right outer join: right hand side full records and left hand side only matching records
-3. Full outer join: all matching records and, left and right hand side full unmatching records
+1. Left outer join: The LEFT JOIN keyword returns all records from the left table (table1), and the matching records from the right table (table2). The result is 0 records from the right side, if there is no match.
+
+SYNTAX:
+
+SELECT column_name(s)
+FROM table1
+LEFT JOIN table2
+ON table1.column_name = table2.column_name;
+
+2. Right outer join: The RIGHT JOIN keyword returns all records from the right table (table2), and the matching records from the left table (table1). The result is 0 records from the left side, if there is no match.
+
+SYNTAX:
+
+SELECT column_name(s)
+FROM table1
+RIGHT JOIN table2
+ON table1.column_name = table2.column_name;
+
+3. Full outer join: The FULL OUTER JOIN keyword returns all records when there is a match in left (table1) or right (table2) table records.
+
+SYNTAX:
+
+SELECT column_name(s)
+FROM table1
+FULL OUTER JOIN table2
+ON table1.column_name = table2.column_name
+WHERE condition;
 */
 
 SELECT * FROM EMPLOYEE_APPLE LEFT JOIN EMPLOYEE_GOOGLE ON EMPLOYEE_APPLE.FIRST_NAME = EMPLOYEE_GOOGLE.FIRST_NAME;
@@ -91,7 +161,13 @@ SELECT * FROM EMPLOYEE_APPLE RIGHT JOIN EMPLOYEE_GOOGLE ON EMPLOYEE_APPLE.FIRST_
 SELECT * FROM EMPLOYEE_APPLE FULL JOIN EMPLOYEE_GOOGLE ON EMPLOYEE_APPLE.FIRST_NAME = EMPLOYEE_GOOGLE.FIRST_NAME;
 
 /*
-- Self join: join of the table with itself
+- Self join: A self join is a regular join, but the table is joined with itself.
+
+SYNTAX:
+
+SELECT column_name(s)
+FROM table1 T1, table1 T2
+WHERE condition;
 */
 SELECT * FROM EMPLOYEE_APPLE EMPA1, EMPLOYEE_APPLE EMP2;
 

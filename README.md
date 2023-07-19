@@ -2,7 +2,7 @@
 
 ## [DAY-1](./day_01/class_lesson/)
 
-Day 1 Topic(s) is/are:
+Day 1 Topic(s) is / are:
 
 - Syllabus
 - C# introduction
@@ -13,7 +13,7 @@ Day 1 Project: [Console Application Introduction](./day_01/assignment/)
 
 ## [DAY-2](./day_02/class_lesson/)
 
-Day 2 Topic(s) is/are:
+Day 2 Topic(s) is / are:
 
 - Variables
 - Data types
@@ -27,7 +27,7 @@ Day 2 Project: [Simple Calculator](./day_02/assignment/)
 
 ## [DAY-3](./day_03/class_lesson/)
 
-Day 3 Topic(s) is/are:
+Day 3 Topic(s) is / are:
 
 - Class
 - Objects
@@ -39,7 +39,7 @@ Day 3 Project: [Simple Calculator (with all the concepts learned so far till day
 
 ## [DAY-4](./day_04/class_lesson/)
 
-Day 4 Topic(s) is/are:
+Day 4 Topic(s) is / are:
 
 - C# type casting
 - Conditions
@@ -55,7 +55,7 @@ Day 4 Project: [College Admin Portal](./day_04/assignment/)
 
 ## [DAY-5](./day_05/class_lesson/)
 
-Day 5 Topic(s) is/are:
+Day 5 Topic(s) is / are:
 
 - Multidimensional arrays (arrays contd.)
 - Jagged arrays (arrays contd.)
@@ -66,7 +66,7 @@ Day 5 Project: [College Admin Portal (with all the concepts learned so far till 
 
 ## [DAY-6](./day_06/class_lesson/)
 
-Day 6 Topic(s) is/are:
+Day 6 Topic(s) is / are:
 
 - Inheritance in c#
 - Polymorphism
@@ -77,7 +77,7 @@ Day 6 Project: [College Admin Portal (with all the concepts learned so far till 
 
 ## [DAY-7](./day_07/class_lesson/)
 
-Day 7 Topic(s) is/are:
+Day 7 Topic(s) is / are:
 
 - Interfaces in c#
 - C# enum
@@ -88,7 +88,7 @@ Day 7 Project: [College Admin Portal (with all the concepts learned so far till 
 
 ## [DAY-8](./day_08/class_lesson/)
 
-Day 8 Topic(s) is/are:
+Day 8 Topic(s) is / are:
 
 - User-defined exceptions in c#
 - C# generics
@@ -99,7 +99,7 @@ Day 8 Project: [College Admin Portal (with all the concepts learned so far till 
 
 ## [DAY-9](./day_09/class_lesson/)
 
-Day 9 Topic(s) is/are:
+Day 9 Topic(s) is / are:
 
 - ASP.NET Introduction
 
@@ -107,7 +107,7 @@ Day 9 Project: [ASP.NET Introduction Project](./day_09/assignment/)
 
 ## [DAY-10](./day_10/class_lesson/)
 
-Day 10 Topic(s) is/are:
+Day 10 Topic(s) is / are:
 
 - HTML Introduction
 
@@ -115,7 +115,7 @@ Day 10 Project: [HTML Deeper dive (Self Study)](./day_10/assignment/)
 
 ## [DAY-11](./day_11/class_lesson/)
 
-Day 11 Topic(s) is/are:
+Day 11 Topic(s) is / are:
 
 - Diving deeper into ASP.NET web application
 
@@ -123,7 +123,7 @@ Day 11 Project: [ASP.NET Web Project](./day_11/assignment/)
 
 ## [DAY-12](./day_12/class_lesson/)
 
-Day 12 Topic(s) is/are:
+Day 12 Topic(s) is / are:
 
 - Diving deeper into ASP.NET web application components
 
@@ -131,7 +131,7 @@ Day 12 Project: [ASP.NET Web Page Life Cycle Event Project](./day_12/assignment/
 
 ## [DAY-13](./day_13/class_lesson/)
 
-Day 13 Topic(s) is/are:
+Day 13 Topic(s) is / are:
 
 - 
 
@@ -139,7 +139,7 @@ Day 13 Project: [](./day_13/assignment/)
 
 ## [DAY-14](./day_14/class_lesson/)
 
-Day 14 Topic(s) is/are:
+Day 14 Topic(s) is / are:
 
 - 
 
@@ -147,7 +147,7 @@ Day 14 Project: [](./day_14/assignment/)
 
 ## [DAY-15](./day_15/class_lesson/)
 
-Day 15 Topic(s) is/are:
+Day 15 Topic(s) is / are:
 
 - 
 
@@ -155,7 +155,7 @@ Day 15 Project: [](./day_15/assignment/)
 
 ## [DAY-16](./day_16/class_lesson/)
 
-Day 16 Topic(s) is/are:
+Day 16 Topic(s) is / are:
 
 - 
 
@@ -163,7 +163,7 @@ Day 16 Project: [](./day_16/assignment/)
 
 ## [DAY-17](./day_17/class_lesson/)
 
-Day 17 Topic(s) is/are:
+Day 17 Topic(s) is / are:
 
 - 
 
@@ -171,15 +171,15 @@ Day 17 Project: [](./day_17/assignment/)
 
 ## [DAY-18](./day_12/class_lesson/)
 
-Day 18 Topic(s) is/are:
+Day 18 Topic(s) is / are:
 
-- Deeper dive into sql commands/ syntaxs
+- Deeper dive into sql commands / syntaxs
 
 Day 18 Project: [SQL Lesson 18 Revision / Play Around Project](./day_18/assignment/)
 
 ## [DAY-19](./day_19/class_lesson/)
 
-Day 19 Topic(s) is/are:
+Day 19 Topic(s) is / are:
 
 - SQL primary key
 - SQL unique key
@@ -190,7 +190,7 @@ Day 19 Project: [SQL Lesson 19 Revision / Play Around Project](./day_19/assignme
 
 ## [DAY-20](./day_20/class_lesson/)
 
-Day 20 Topic(s) is/are:
+Day 20 Topic(s) is / are:
 
 - SQL views
 - SQL Joins
