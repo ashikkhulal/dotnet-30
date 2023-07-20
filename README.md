@@ -206,6 +206,14 @@ Day 21 Topic(s) is / are:
 
 Day 21 Project: [SQL Lesson 21 Revision / Play Around Project](./day_21/assignment/)
 
+## [DAY-22](./day_22/class_lesson/)
+
+Day 22 Topic(s) is / are:
+
+- ASP.NET web application deeper dive (connecting FrontEnd Middleware and Backend)
+
+Day 22 Project: [ASP.NET Web Application Project](./day_21/class_lesson/)
+
 ---
 ## [Other Projects](./other_projects/)
 
