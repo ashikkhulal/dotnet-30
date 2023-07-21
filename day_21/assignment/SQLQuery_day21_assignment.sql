@@ -575,55 +575,180 @@ SELECT YEAR('2017/08/25') AS Year
 
 -- Advanced Functions:
 
--- 
+-- CAST(): converts a value (of any type) into a specified datatype
 -- SYNTAX:
--- 
+-- CAST(expression AS datatype(length))
 
--- 
--- SYNTAX:
--- 
+SELECT CAST(25.65 AS int)
 
--- 
+-- COALESCE(): returns the first non-null value in a list
 -- SYNTAX:
--- 
+-- COALESCE(val1, val2, ...., val_n)
 
--- 
--- SYNTAX:
--- 
+SELECT COALESCE(NULL, NULL, NULL, 'example.com', NULL, 'google.com')
 
--- 
+-- CONVERT(): converts a value (of any type) into a specified datatype
 -- SYNTAX:
--- 
+-- CONVERT(data_type(length), expression, style)
 
--- 
--- SYNTAX:
--- 
+SELECT CONVERT(int, 25.65)
 
--- 
+-- CURRENT_USER: returns the name of the current user in the SQL Server database
 -- SYNTAX:
--- 
+-- CURRENT_USER
 
--- 
--- SYNTAX:
--- 
+SELECT CURRENT_USER
 
--- 
+-- IIF(): returns a value if a condition is TRUE, or another value if a condition is FALSE
 -- SYNTAX:
--- 
+-- IIF(condition, value_if_true, value_if_false)
 
--- 
--- SYNTAX:
--- 
+SELECT IIF(500<1000, 'YES', 'NO')
 
--- 
+-- ISNULL(): returns a specified value if the expression is NULL. If the expression is NOT NULL, this function returns the expression.
 -- SYNTAX:
--- 
+-- ISNULL(expression, value)
 
--- 
+SELECT ISNULL(NULL, 'example.com')
+
+SELECT ISNULL('ABC', 'example.com')
+
+-- ISNUMERIC(): tests whether an expression is numeric. This function returns 1 if the expression is numeric, otherwise it returns 0.
 -- SYNTAX:
--- 
+-- ISNUMERIC(expression)
+
+SELECT ISNUMERIC(4567)
+SELECT ISNUMERIC('ABC')
+
+-- NULLIF(): returns NULL if two expressions are equal, otherwise it returns the first expression
+-- SYNTAX:
+-- NULLIF(expr1, expr2)
+
+SELECT NULLIF(25, 25)
+SELECT NULLIF(45, 25)
+
+-- SESSION_USER: returns the name of the current user in the SQL Server database
+-- SYNTAX:
+-- SESSION_USER
+
+SELECT SESSION_USER
+
+-- SESSIONPROPERTY(): returns the session settings for a specified option
+-- SYNTAX:
+-- SESSIONPROPERTY(option)
+
+SELECT SESSIONPROPERTY('ANSI_NULLS')
+
+-- SYSTEM_USER: returns the login name for the current user
+-- SYNTAX:
+-- SYSTEM_USER
+
+SELECT SYSTEM_USER
+
+-- USER_NAME(): returns the database user name based on the specified id. If no id is specified, this function will return the name of the current user.
+-- SYNTAX:
+-- USER_NAME(id_number)
+
+SELECT USER_NAME()
 
 -- User Defined Functions:
+
+-- Inline Table-valued Functions:
+
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+-- =============================================
+-- Author:		Ashik Khulal
+-- Create date: 07/20/2023
+-- Description:	Gets data from FEDEX_Customers table
+-- =============================================
+CREATE FUNCTION fudf_GetFEDEXCustomers()
+RETURNS TABLE 
+AS
+RETURN 
+(
+	SELECT * FROM FEDEX_Customers
+)
+GO
+
+SELECT * FROM fudf_GetFEDEXCustomers()
+
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+-- =============================================
+-- Author:		Ashik Khulal
+-- Create date: 07/20/2023
+-- Description:	Gets data from UPS_Customers table
+-- =============================================
+CREATE FUNCTION fudf_GetUPSCustomers()
+RETURNS TABLE 
+AS
+RETURN 
+(
+	SELECT * FROM UPS_Customers
+)
+GO
+
+SELECT * FROM fudf_GetUPSCustomers()
+
+-- Multi-Statement Table-valued Function:
+
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+-- =============================================
+-- Author:		Ashik Khulal
+-- Create date: 07/20/2023
+-- Description:	Gets data from FEDEX_Customers & UPS_Customers table
+-- =============================================
+CREATE FUNCTION fudf_CombinedCustomers()
+RETURNS 
+@CombinedCustomersTable TABLE 
+(
+[CustomersID] int, [Name] varchar(50), [Phone] varchar(50), [Email] varchar(50), [Address] varchar(50), [Country] varchar(50), [Region] varchar(50), [PostalZip] varchar(20)
+)
+AS
+BEGIN
+	INSERT INTO @CombinedCustomersTable
+		SELECT * FROM FEDEX_Customers
+	INSERT INTO @CombinedCustomersTable
+		SELECT * FROM UPS_Customers
+	RETURN 
+END
+GO
+
+SELECT * FROM fudf_CombinedCustomers()
+
+-- Scalar-valued Functions:
+
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+-- =============================================
+-- Author:		Ashik Khulal
+-- Create date: 07/20/2023
+-- Description:	Adds two integers
+-- =============================================
+CREATE FUNCTION fudf_SumOfTwoNumbers
+(
+	@FirstNumber int,
+	@SecondNumber int
+)
+RETURNS int
+AS
+BEGIN
+	-- Return the result of the function
+	RETURN @FirstNumber + @SecondNumber
+END
+GO
+
+SELECT dbo.fudf_SumOfTwoNumbers(10,20) AS Sum_Of_10_and_20;
 
 
 -- Clean up:
@@ -636,6 +761,11 @@ DROP CONSTRAINT [PK_UPS_Customers]
 
 DROP PROCEDURE usp_GetCustomerDetails
 DROP PROCEDURE usp_AddCustomerDetails
+
+DROP FUNCTION fudf_GetFEDEXCustomers
+DROP FUNCTION fudf_GetUPSCustomers
+DROP FUNCTION fudf_CombinedCustomers
+DROP FUNCTION fudf_SumOfTwoNumbers
 
 DROP TABLE FEDEX_Customers
 DROP TABLE UPS_Customers
