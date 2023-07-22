@@ -11,3 +11,7 @@ CREATE TABLE Employees (
 )
 
 SELECT * FROM Employees
+
+-- Clean up:
+
+DROP TABLE Employees

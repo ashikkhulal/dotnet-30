@@ -212,7 +212,15 @@ Day 22 Topic(s) is / are:
 
 - ASP.NET web application deeper dive (connecting FrontEnd Middleware and Backend)
 
-Day 22 Project: [ASP.NET Web Application Project](./day_21/class_lesson/)
+Day 22 Project: [ASP.NET Web Application Project(Empty Template)](./day_22/assignment/)
+
+## [DAY-23](./day_23/)
+
+Day 23 Topic(s) is / are:
+
+- ASP.NET web application deeper dive (connecting FrontEnd Middleware and Backend) with other asp toolbox kits
+
+Day 23 Project: [ASP.NET Web Application Project](./day_23/)
 
 ---
 ## [Other Projects](./other_projects/)
