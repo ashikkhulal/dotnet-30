@@ -218,9 +218,17 @@ Day 22 Project: [ASP.NET Web Application Project(Empty Template)](./day_22/assig
 
 Day 23 Topic(s) is / are:
 
-- ASP.NET web application deeper dive (connecting FrontEnd Middleware and Backend) with other asp toolbox kits
+- ASP.NET web application deeper dive (gridview component)
 
 Day 23 Project: [ASP.NET Web Application Project](./day_23/)
+
+## [DAY-24](./day_24/)
+
+Day 24 Topic(s) is / are:
+
+- ASP.NET web application deeper dive (databinding(sqlreader class) from middleware to gridview component)
+
+Day 24 Project: [ASP.NET Web Application Project](./day_24/)
 
 ---
 ## [Other Projects](./other_projects/)
