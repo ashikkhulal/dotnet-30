@@ -222,13 +222,13 @@ Day 23 Topic(s) is / are:
 
 Day 23 Project: [ASP.NET Web Application Project](./day_23/)
 
-## [DAY-24](./day_24/)
+## [DAY-24](./day_24/class_lesson/)
 
 Day 24 Topic(s) is / are:
 
 - ASP.NET web application deeper dive (databinding(sqlreader class) from middleware to gridview component)
 
-Day 24 Project: [ASP.NET Web Application Project](./day_24/)
+Day 24 Project: [ASP.NET Web Application Project](./day_24/assignment/)
 
 ---
 ## [Other Projects](./other_projects/)
