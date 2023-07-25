@@ -11,7 +11,7 @@
         <div>
             <h3>Welcome to ABC Shipping Admin Page!</h3>
             <h4>View customers data below:</h4>
-            <asp:GridView ID="Grv_Admin" runat="server" AutoGenerateColumns="False" DataKeyNames="ID" DataSourceID="SqlDataSourceMyLocalDb" AllowPaging="True" AllowSorting="True">
+            <asp:GridView ID="Grv_Admin" runat="server" AutoGenerateColumns="False" DataKeyNames="ID" DataSourceID="SqlDataSourceMyLocalDb" AllowPaging="True" AllowSorting="True" OnSelectedIndexChanged="Grv_Admin_SelectedIndexChanged">
                 <Columns>
                     <asp:CommandField ShowSelectButton="True"></asp:CommandField>
                     <asp:BoundField DataField="ID" HeaderText="ID" ReadOnly="True" InsertVisible="False" SortExpression="ID"></asp:BoundField>
