@@ -230,6 +230,14 @@ Day 24 Topic(s) is / are:
 
 Day 24 Project: [ASP.NET Web Application Project](./day_24/assignment/)
 
+## [DAY-25](./day_25/class_lesson/)
+
+Day 25 Topic(s) is / are:
+
+- Entity framework (database first approach)
+
+Day 25 Project: [ASP.NET Web Application w/ EF-DFA Project](./day_25/assignment/)
+
 ---
 ## [Other Projects](./other_projects/)
 

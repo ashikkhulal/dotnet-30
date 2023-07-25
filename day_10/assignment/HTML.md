@@ -79,6 +79,26 @@ Example:
 <img src="example.jpg" alt="example.com" width="104" height="142">
 ```
 
+## HTML Display:
+- You cannot be sure how HTML will be displayed. Large or small screens, and resized windows will create different results.
+- With HTML, you cannot change the display by adding extra spaces or extra lines in your HTML code. The browser will automatically remove any extra spaces and lines when the page is displayed.
+
+## The HTML <pre> Element
+- The HTML <pre> element defines preformatted text.
+- The text inside a <pre> element is displayed in a fixed-width font (usually Courier), and it preserves both spaces and line breaks:
+
+```
+<pre>
+    My Bonnie lies over the ocean.
+
+    My Bonnie lies over the sea.
+
+    My Bonnie lies over the ocean.
+
+    Oh, bring back my Bonnie to me.
+</pre>
+```
+
 # HTML Elements:
 
 - An HTML element is defined by a start tag, some content, and an end tag.
@@ -97,10 +117,26 @@ Example:
 
 ## Empty HTML Elements
 - HTML elements with no content are called empty elements.
+
+### HTML Link Breaks
 - The `<br>` tag defines a line break, and is an empty element without a closing tag:
 
 ```
 <p>This is a <br> paragraph with a line break.</p>
+```
+
+### HTML Horizontal Rules
+- The <hr> tag defines a thematic break in an HTML page, and is most often displayed as a horizontal rule.
+- The <hr> tag is an empty tag, which means that it has no end tag.
+- The <hr> element is used to separate content (or define a change) in an HTML page:
+
+```
+<h1>This is heading 1</h1>
+<p>This is some text.</p>
+<hr>
+<h2>This is heading 2</h2>
+<p>This is some other text.</p>
+<hr>
 ```
 
 ## HTML is Not Case Sensitive
@@ -144,10 +180,67 @@ Example:
 
 ## The style Attribute
 - The style attribute is used to add styles to an element, such as color, font, size, and more.
+  
+```
+<tagname style="property:value;">
+```
+
+### Text Color 
+- The CSS color property defines the text color for an HTML element:
 
 ```
 <p style="color:red;">This is a red paragraph.</p>
 ```
+
+### Fonts
+- The CSS font-family property defines the font to be used for an HTML element:
+
+```
+<h1 style="font-family:verdana;">This is a heading</h1>
+<p style="font-family:courier;">This is a paragraph.</p>
+```
+
+### Background Color
+- The CSS background-color property defines the background color for an HTML element.
+
+```
+<body style="background-color:powderblue;">
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+```
+
+### Text Size
+- The CSS font-size property defines the text size for an HTML element:
+
+```
+<h1 style="font-size:300%;">This is a heading</h1>
+<p style="font-size:160%;">This is a paragraph.</p>
+```
+
+### Text Alignment
+- The CSS text-align property defines the horizontal text alignment for an HTML element:
+
+```
+<h1 style="text-align:center;">Centered Heading</h1>
+<p style="text-align:center;">Centered paragraph.</p>
+```
+
+## HTML Formatting Elements
+Formatting elements were designed to display special types of text:
+
+- <b> - Bold text
+- <strong> - Important text
+- <i> - Italic text
+- <em> - Emphasized text
+- <mark> - Marked text
+- <small> - Smaller text
+- <del> - Deleted text
+- <ins> - Inserted text
+- <sub> - Subscript text
+- <sup> - Superscript text
 
 ## The lang Attribute
 - You should always include the lang attribute inside the `<html>` tag, to declare the language of the Web page. This is meant to assist search engines and browsers.
@@ -184,3 +277,34 @@ Example:
 ## Good tips with HTML Attributes
 - Use Lowercase Attributes.
 - Quote Attribute Values.
+
+## HTML <blockquote> for Quotations
+- The HTML <blockquote> element defines a section that is quoted from another source.
+- Browsers usually indent <blockquote> elements.
+
+## HTML <q> for Short Quotations
+- The HTML <q> tag defines a short quotation. Browsers normally insert quotation marks around the quotation.
+
+## HTML <abbr> for Abbreviations
+- The HTML <abbr> tag defines an abbreviation or an acronym, like "HTML", "CSS", "Mr.", "Dr.", "ASAP", "ATM".
+- Marking abbreviations can give useful information to browsers, translation systems and search-engines.
+- Tip: Use the global title attribute to show the description for the abbreviation/acronym when you mouse over the element. 
+
+## HTML <address> for Contact Information
+- The HTML <address> tag defines the contact information for the author/owner of a document or an article.
+- The contact information can be an email address, URL, physical address, phone number, social media handle, etc.
+- The text in the <address> element usually renders in italic, and browsers will always add a line break before and after the <address> element.
+
+## HTML <cite> for Work Title
+- The HTML <cite> tag defines the title of a creative work (e.g. a book, a poem, a song, a movie, a painting, a sculpture, etc.).
+- Note: A person's name is not the title of a work.
+- The text in the <cite> element usually renders in italic.
+
+## HTML <bdo> for Bi-Directional Override
+ - BDO stands for Bi-Directional Override. The HTML <bdo> tag is used to override the current text direction
+
+# HTML Colors
+- HTML colors are specified with predefined color names, or with RGB, HEX, HSL, RGBA, or HSLA values.
+- You can set the background color for HTML elements.
+- You can set the color of text.
+- You can set the color of borders.

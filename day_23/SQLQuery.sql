@@ -62,12 +62,9 @@ VALUES
 
 
 SELECT * FROM ABC_Shipping_Co
-
-SELECT COUNT(ID) FROM ABC_Shipping_Co            
+       
 
 -- Clean up:
-
---DELETE FROM ABC_Shipping_Co WHERE ID = 4;
 
 
 DROP TABLE ABC_Shipping_Co
