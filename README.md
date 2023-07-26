@@ -236,7 +236,7 @@ Day 25 Topic(s) is / are:
 
 - Entity framework (database first approach)
 
-Day 25 Project: [ASP.NET Web Application w/ EF-DFA Project](./day_25/assignment/)
+Day 25 Project: None
 
 ---
 ## [Other Projects](./other_projects/)
