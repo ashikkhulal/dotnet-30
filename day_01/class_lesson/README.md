@@ -74,7 +74,7 @@ Query keywords are: from, where, select, group, into, orderby, join, let, in, on
 
 ## Class:
 
-**Class** is a **blueprint** 
+❗ **Class** is a **blueprint.** 
 
 A class is like a blueprint of a specific object that has certain attributes and features. For example, a car should have some attributes such as four wheels, two or more doors, steering, a windshield, etc. It should also have some functionalities like start, stop, run, move, etc. Now, any object that has these attributes and functionalities is a car. Here, the car is a class that defines some specific attributes and functionalities. Each individual car is an object of the car class. You can say that the car you are having is an object of the car class.
 
@@ -101,7 +101,7 @@ Syntax: <access-modifier> <class-name>(){ }
   
 ## Objects of a Class:
 
-**Object** is **an instance of a class**
+❗ **Object** is **an instance of a class.**
 
 You can create one or more objects of a class. Each object can have different values of properties and field but methods and events behaves the same.
 
@@ -125,7 +125,7 @@ myStudentAnother.FirstName = "Bill"
 
 Namespaces play an important role in managing related classes in C#. The .NET Framework uses namespaces to organize its built-in classes. For example, there are some built-in namespaces in .NET such as System, System.Linq, System.Web, etc. Each namespace contains related classes.
 
-**A namespace is a container for classes and namespaces. **
+❗ **Namespace** is **a container for classes and namespaces.**
 
 The namespace also gives unique names to its classes thereby you can have the same class name in different namespaces.
 

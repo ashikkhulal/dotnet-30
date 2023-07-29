@@ -20,11 +20,10 @@ Day 2 Topic(s) is / are:
 
 - Variables
 - Data types
-- String concatenation
-- String interpolation
-- Print output
-- User input into variables
 - Data types conversion
+- String concatenation and interpolation
+- Printing output
+- User input into variables
 
 Day 2 Project: [Simple Calculator](./day_02/assignment/)
 

@@ -1,13 +1,13 @@
 # Day 2
 
-Day 2 topics are:
+Day 2 Topic(s) is / are:
 
-1. Variables
-2. Data-types
-3. String cOncatenation
-4. Print output
-5. User input into variables
-6. Data type conversion
+- Variables
+- Data types
+- Data types conversion
+- String concatenation and interpolation
+- Printing output
+- User input into variables
 
 ```
 Pro-Tip/ Shortcuts for VS:
@@ -53,12 +53,46 @@ The followings are naming conventions for declaring variables in C#:
 
 C# is a strongly-typed language. It means we must declare the type of a variable that indicates the kind of values it is going to store, such as integer, float, decimal, text, etc.
 
-## Data-types:
-C# mainly categorized data types in two types: Value types and Reference types.
-Value types include simple types (such as int, float, bool, and char), enum types, struct types, and Nullable value types.
-Reference types include class types, interface types, delegate types, and array types.
+Variables can be declared and initialized together (initialization).
 
-Predefined Data Types in C#:
+Variables can be declared first and initialized later (late initialization).
+
+The value of a variable can be changed anytime after initializing it.
+
+Multiple variables of the same data type can be declared and initialized in a single line separated by commas. 
+Multiple variables of the same type can also be declared in multiple lines separated by a comma. The compiler will consider it to be one statement until it encounters a semicolon **;**.
+
+The value of a variable can be assigned to another variable of the same data type. However, a value must be assigned to a variable before using it.
+
+**Implicitly-typed variables:**
+C# 3.0 introduced var keyword to declare method level variables without specifying a data type explicitly.
+
+Syntax: 
+
+```
+var <variable_name> = <value>;
+var num = 100; //compiler will auto-understand variable num as an integer type
+```
+
+**Implicitly-typed variables must be initialized at the time of declaration**; otherwise C# compiler would give an error: Implicitly-typed variables must be initialized.
+
+Multiple declarations of var variables in a single statement are **not** allowed.
+
+var **cannot** be used for function parameters.
+
+var **can** be used in for, and foreach loops.
+
+var **can** also be used with LINQ queries.
+
+
+## Data-types:
+C# mainly categorized data types in two types: **Value** types and **Reference** types.
+**Value** types include simple types (such as int, float, bool, and char), enum types, struct types, and nullable value types.
+**Reference** types include class types, interface types, delegate types, and array types.
+
+![Data-types](image-1.png)
+
+**Predefined Data Types in C#:**
 C# includes some predefined value types and reference types. The following table lists predefined data types:
 
 | Type | Description | Range | Suffix |
@@ -80,5 +114,65 @@ C# includes some predefined value types and reference types. The following table
 | string | A sequence of Unicode characters |  |  |
 | DateTime | Represents date and time | 0:00:00am 1 / 1 / 01 to 11:59:59pm 12 / 31 / 9999 |  |
 
+**Alias vs .NET Type:**
+The predefined data types are alias to their .NET type(CLR class) name.The following table lists alias for predefined data types and related.NET class name.
 
+| Alias | .NET Type | Type |
+|:---|:---|:---|
+| byte | System.Byte | struct |
+| sbyte | System.SByte | struct |
+| int | System.Int32 | struct |
+| uint | System.UInt32 | struct |
+| short | System.Int16 | struct |
+| ushort | System.UInt16 | struct |
+| long | System.Int64 | struct |
+| ulong | System.UInt64 | struct |
+| float | System.Single | struct |
+| double | System.Double | struct |
+| char | System.Char | struct |
+| bool | System.Boolean | struct |
+| object | System.Object | Class |
+| string | System.String | Class |
+| decimal | System.Decimal | struct |
+| DateTime | System.DateTime | struct |
+
+### Numbers in C#:
+Numbers, in general, can be divided into two types: **Integer** type and **floating-point** types.
+
+![Numbers](image.png)
+
+**Integer** type numbers are whole numbers without decimal points. It can be negative or positive numbers. **Integer** type numbers are positive or negative whole numbers without decimal points. C# includes four data types for integer numbers: byte, short, int, and long.
+
+**Floating-point** type is numbers with one or more decimal points. It can be negative or positive numbers. **Floating-point** numbers are positive or negative numbers with one or more decimal points. C# includes three data types for floating-point numbers: float, double, and decimal.
+
+### C# Strings:
+In C#, a string is a series of characters that is used to represent text. It can be a character, a word or a long passage surrounded with the double quotes ".
+
+C# includes escaping character **\** (backslash) before special characters to include in a string.
+
+Verbatim string can be created by prefixing **@** symbol before double quotes.
+
+### DateTime:
+C# includes DateTime struct to work with dates and times.
+
+**Ticks** is a date and time expressed in the number of 100-nanosecond intervals that have elapsed since January 1, 0001, at 00:00:00.000 in the Gregorian calendar.
+
+The DateTime struct includes static fields, properties, and methods.
+
+**TimeSpan** is a struct that is used to represent time in days, hour, minutes, seconds, and milliseconds. Subtraction of two dates results in TimeSpan.
+
+The DateTime struct overloads +, -, ==, !=, >, <, <=, >= operators to ease out addition, subtraction, and comparison of dates. These make it easy to work with dates.
+
+## Data-type conversions:
+The values of certain data types are automatically converted to different data types in C#. This is called an implicit conversion.
+
+However, not all data types are implicitly converted to other data types. It must be specified explicitly.
+
+## String Concatenation:
+Multiple strings can be concatenated with **+** operator.
+
+## String Interpolation: 
+String interpolation is a better way of concatenating strings. We use + sign to concatenate string variables with static strings.
+
+C# 6 includes a special character $ to identify an interpolated string. An interpolated string is a mixture of static string and string variable where string variables should be in {} brackets.
 

@@ -19,11 +19,9 @@ namespace day_2_lesson
             //5. User input into variables
             //6. Data type conversion
 
-            //Variables:
+            //Variables and data-types:
 
-            //Data types:
-
-            //The following declares and initialized variables of different data types.
+            //Syntax: <data-type> <variable_name> = <value>;
 
             int integer = -1;
             float iAmFloat = 1.0000f;
@@ -32,32 +30,7 @@ namespace day_2_lesson
             char iAmChar = 'a';
             const int constVar = 25; //Syntax: const <data-type> <variable_name> = <value>;
 
-            //Alias vs .NET Type
-            //The predefined data types are alias to their .NET type(CLR class) name.The following table lists alias for predefined data types and related.NET class name.
-            //Alias       .NET Type           Type
-            //byte        System.Byte         struct
-            //sbyte       System.SByte        struct
-            //int         System.Int32        struct
-            //uint        System.UInt32       struct
-            //short       System.Int16        struct
-            //ushort      System.UInt16       struct
-            //long        System.Int64        struct
-            //ulong       System.UInt64       struct
-            //float       System.Single       struct
-            //double      System.Double       struct
-            //char        System.Char         struct
-            //bool        System.Boolean      struct
-            //object      System.Object       Class
-            //string      System.String       Class
-            //decimal     System.Decimal      struct
-            //DateTime    System.DateTime     struct
-
-
-
             //Numbers in C#
-            //Numbers, in general, can be divided into two types: Integer type and floating-point types.
-            //Integer type numbers are whole numbers without decimal points. It can be negative or positive numbers.
-            //Integer type numbers are positive or negative whole numbers without decimal points. C# includes four data types for integer numbers: byte, short, int, and long.
             byte b1 = 255;
             sbyte sb1 = -128;
             short s1 = -32768;
@@ -66,15 +39,21 @@ namespace day_2_lesson
             int hex = 0x2F;
             long l1 = -9223372036854775808;
 
-            //Floating - point type is numbers with one or more decimal points. It can be negative or positive numbers.
-            //Floating-point numbers are positive or negative numbers with one or more decimal points. C# includes three data types for floating-point numbers: float, double, and decimal.
+
             float f1 = 123456.5F;
             double d1 = 12345678912345.5d;
             decimal d1 = 123456789123456789123456789.5m;
 
             //C# Strings
-            //In C#, a string is a series of characters that is used to represent text. It can be a character, a word or a long passage surrounded with the double quotes ". The following are string literals.
             string text = "This is a string.";
+
+            //Invalid: string text = "This is a "string" in C#.";
+
+            string text = "This is a \"string\" in C#.";
+
+            string str = @"xyzdef\rabc";
+            string path = @"\\mypc\shared\project";
+            string email = @"test@test.com";
 
             //String concatenation
             string name = "Mr." + "James " + "Bond" + ", Code: 007";
@@ -94,32 +73,69 @@ namespace day_2_lesson
             string fullName = $"Mr. {firstName} {lastName}, Code: {code}";
 
             //Date & Time:
-            //C# includes DateTime struct to work with dates and times.
-            DateTime dt = new DateTime();   // assigns default value 01/01/0001 00:00:00
 
-            //Variables can be declared first and initialized later.
+            //assigns default value 01/01/0001 00:00:00
+            DateTime dt0 = new DateTime();
+
+            //assigns year, month, day
+            DateTime dt00 = new DateTime(2015, 12, 31);
+
+            //assigns year, month, day, hour, min, seconds
+            DateTime dt000 = new DateTime(2015, 12, 31, 5, 10, 20);
+
+            //assigns year, month, day, hour, min, seconds, UTC timezone
+            DateTime dt0000 = new DateTime(2015, 12, 31, 5, 10, 20, DateTimeKind.Utc);
+
+            DateTime dt = new DateTime(636370000000000000);
+            DateTime.MinValue.Ticks;  //min value of ticks
+            DateTime.MaxValue.Ticks; // max value of ticks
+
+            DateTime currentDateTime = DateTime.Now;  //returns current date and time
+            DateTime todaysDate = DateTime.Today; // returns today's date
+            DateTime currentDateTimeUTC = DateTime.UtcNow;// returns current UTC date and time
+
+            DateTime maxDateTimeValue = DateTime.MaxValue; // returns max value of DateTime
+            DateTime minDateTimeValue = DateTime.MinValue; // returns min value of DateTime
+
+            DateTime dt = new DateTime(2015, 12, 31);
+            TimeSpan ts = new TimeSpan(25, 20, 55);
+            DateTime newDate = dt.Add(ts);
+            Console.WriteLine(newDate);//1/1/2016 1:20:55 AM
+
+            DateTime dt1 = new DateTime(2015, 12, 31);
+            DateTime dt2 = new DateTime(2016, 2, 2);
+            TimeSpan result = dt2.Subtract(dt1);//33.00:00:00
+
+            DateTime dt1 = new DateTime(2015, 12, 20);
+            DateTime dt2 = new DateTime(2016, 12, 31, 5, 10, 20);
+            TimeSpan time = new TimeSpan(10, 5, 25, 50);
+            Console.WriteLine(dt2 + time); // 1/10/2017 10:36:10 AM
+            Console.WriteLine(dt2 - dt1); //377.05:10:20
+            Console.WriteLine(dt1 == dt2); //False
+            Console.WriteLine(dt1 != dt2); //True
+            Console.WriteLine(dt1 > dt2); //False
+            Console.WriteLine(dt1 < dt2); //True
+            Console.WriteLine(dt1 >= dt2); //False
+            Console.WriteLine(dt1 <= dt2);//True
+
             //Example: late initialization
             int num;
             num = 100;
 
-            //The value of a variable can be changed anytime after initializing it.
             int a = 10;
             a = 20;
 
-            //Multiple variables of the same data type can be declared and initialized in a single line separated by commas.
             int i, j = 10, k = 20;
 
-            //Multiple variables of the same type can also be declared in multiple lines separated by a comma. The compiler will consider it to be one statement until it encounters a semicolon ;
             int x = 0,
-                y = 10
-                z = 20;
+            y = 10,
+            z = 20;
 
-            //The value of a variable can be assigned to another variable of the same data type. However, a value must be assigned to a variable before using it.
             int k = 100;
             int l = k;
 
             //Implicitly-type variables:
-            //C# 3.0 introduced var keyword to declare method level variables without specifying a data type explicitly.
+
             var u = 100; // implicitly typed local variable
 
             //The compiler will infer the type of a variable from the expression on the right side of the = operator. Above, var will be compiled as int.
@@ -142,15 +158,11 @@ namespace day_2_lesson
             userInput = Console.ReadLine(); // takes the input value as a string
             Console.WriteLine("You entered: " + userInput);
 
-            //Data-type conversion:
-            //The values of certain data types are automatically converted to different data types in C#. This is called an implicit conversion
-            //implicit conversion
             //Example: Implicit Conversion
             int i = 345;
             float f = i;
 
-            //However, not all data types are implicitly converted to other data types. For example, int type cannot be converted to uint implicitly. It must be specified explicitly, as shown below.
-
+            //Example: Explicitly Conversion
             Console.WriteLine(""); // prints empty line
             Console.WriteLine("Data type conversion examples:");
             int age;
@@ -160,12 +172,26 @@ namespace day_2_lesson
 
             //Hold/Stop execution of program until the user presses a key:
             Console.ReadKey();
+        }
 
-            // Shortcut Tip: CTRL + L to delete a single line
-            // Shortcut Tip: CTRL + D to copy a line to one below
-            // Shortcut Tip: CTRL + K + C to comment
-            // Shortcut Tip: CTRL + K + U to comment
-            // Shortcut Tip: CTRL + K + D to format
+        //Struct
+        struct Coordinate
+        {
+            public int x;
+            public int y;
+        }
+
+        //constructors in struct
+        struct Coordinate2
+        {
+            public int x;
+            public int y;
+
+            public Coordinate2(int x, int y)
+            {
+                this.x = x;
+                this.y = y;
+            }
         }
     }
 }
