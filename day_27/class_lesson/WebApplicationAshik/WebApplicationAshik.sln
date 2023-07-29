@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplicationAshik", "WebApplicationAshik\WebApplicationAshik.csproj", "{AA001680-6238-408E-B1B7-4B5662680C5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "infrastructure", "infrastructure\infrastructure.csproj", "{08430EEF-17B0-49A6-A3A0-11E715EB88A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA001680-6238-408E-B1B7-4B5662680C5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA001680-6238-408E-B1B7-4B5662680C5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA001680-6238-408E-B1B7-4B5662680C5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA001680-6238-408E-B1B7-4B5662680C5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08430EEF-17B0-49A6-A3A0-11E715EB88A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08430EEF-17B0-49A6-A3A0-11E715EB88A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08430EEF-17B0-49A6-A3A0-11E715EB88A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08430EEF-17B0-49A6-A3A0-11E715EB88A0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AA56E9B3-F4E1-468F-922A-FB08346E531A}
+	EndGlobalSection
+EndGlobal

@@ -23,14 +23,18 @@ namespace day_1_lessons
         //2. C# introduction
         //3. C# keywords
         //4. Console application introduction
+        //5. Class and Objects
+        //6. Namespace
 
         //Method
+        //Syntax: [access-modifier] return-type MethodName(type parameterName1, type parameterName2,...)
         static void Main(string[] args)
 		{
             //data-type variable = value of variable
             string message = "Hello, World!";
             Console.WriteLine(message);
 		}
+
 
         //Console application introduction
 
@@ -45,6 +49,13 @@ namespace day_1_lessons
         //8. The Console.WriteLine() is a static method, which is used to display a text on the console.
 
         //Note: Every line or statement in C# must end with a semicolon (;).
+
+        //Class and Objects
+
+        //field
+        private int id;
+        //property
+        public int StudentID { get { return id; } set { id = value } }
     }
 
 }

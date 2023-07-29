@@ -1,0 +1,12 @@
+C:\Users\ashik\Videos\Captures\Full Stack Dot Net Class\day_27\class_lesson\WebApplicationAshik\infrastructure\bin\Debug\net6.0\infrastructure.deps.json
+C:\Users\ashik\Videos\Captures\Full Stack Dot Net Class\day_27\class_lesson\WebApplicationAshik\infrastructure\bin\Debug\net6.0\infrastructure.dll
+C:\Users\ashik\Videos\Captures\Full Stack Dot Net Class\day_27\class_lesson\WebApplicationAshik\infrastructure\bin\Debug\net6.0\infrastructure.pdb
+C:\Users\ashik\Videos\Captures\Full Stack Dot Net Class\day_27\class_lesson\WebApplicationAshik\infrastructure\obj\Debug\net6.0\infrastructure.csproj.AssemblyReference.cache
+C:\Users\ashik\Videos\Captures\Full Stack Dot Net Class\day_27\class_lesson\WebApplicationAshik\infrastructure\obj\Debug\net6.0\infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ashik\Videos\Captures\Full Stack Dot Net Class\day_27\class_lesson\WebApplicationAshik\infrastructure\obj\Debug\net6.0\infrastructure.AssemblyInfoInputs.cache
+C:\Users\ashik\Videos\Captures\Full Stack Dot Net Class\day_27\class_lesson\WebApplicationAshik\infrastructure\obj\Debug\net6.0\infrastructure.AssemblyInfo.cs
+C:\Users\ashik\Videos\Captures\Full Stack Dot Net Class\day_27\class_lesson\WebApplicationAshik\infrastructure\obj\Debug\net6.0\infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\ashik\Videos\Captures\Full Stack Dot Net Class\day_27\class_lesson\WebApplicationAshik\infrastructure\obj\Debug\net6.0\infrastructure.dll
+C:\Users\ashik\Videos\Captures\Full Stack Dot Net Class\day_27\class_lesson\WebApplicationAshik\infrastructure\obj\Debug\net6.0\refint\infrastructure.dll
+C:\Users\ashik\Videos\Captures\Full Stack Dot Net Class\day_27\class_lesson\WebApplicationAshik\infrastructure\obj\Debug\net6.0\infrastructure.pdb
+C:\Users\ashik\Videos\Captures\Full Stack Dot Net Class\day_27\class_lesson\WebApplicationAshik\infrastructure\obj\Debug\net6.0\ref\infrastructure.dll

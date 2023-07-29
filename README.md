@@ -8,6 +8,9 @@ Day 1 Topic(s) is / are:
 - C# introduction
 - C# keywords
 - Console application introduction
+- Class
+- Objects
+- Namespace
 
 Day 1 Project: [Console Application Introduction](./day_01/assignment/)
 

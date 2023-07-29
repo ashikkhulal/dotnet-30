@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -19,12 +20,9 @@ namespace day_2_lesson
             //6. Data type conversion
 
             //Variables:
-            //A variable stores a value of the specific data type.
-            //Syntax: <data-type> <variable_name> = <value>;
 
             //Data types:
-            //C# is a strongly-typed language. It means we must declare the type of a variable that indicates the kind of values it is going to store, such as integer, float, decimal, text, etc.
-            
+
             //The following declares and initialized variables of different data types.
 
             int integer = -1;
@@ -33,30 +31,6 @@ namespace day_2_lesson
             string firstName = "John";
             char iAmChar = 'a';
             const int constVar = 25; //Syntax: const <data-type> <variable_name> = <value>;
-
-            //C# mainly categorized data types in two types: Value types and Reference types.
-            //Value types include simple types (such as int, float, bool, and char), enum types, struct types, and Nullable value types.
-            //Reference types include class types, interface types, delegate types, and array types.
-
-            //Predefined Data Types in C#:
-            //C# includes some predefined value types and reference types. The following table lists predefined data types:
-            //Type	        Description	                                                    Range	                                                           Suffix
-            //byte          8 - bit unsigned integer                                        0 to 255
-            //sbyte         8 - bit signed integer                                          -128 to 127
-            //short         16 - bit signed integer                                         -32,768 to 32,767
-            //ushort        16 - bit unsigned integer                                       0 to 65,535
-            //int           32 - bit signed integer                                         -2,147,483,648 to 2,147,483,647
-            //uint          32 - bit unsigned integer                                       0 to 4,294,967,295                                                  u
-            //long          64 - bit signed integer                                         -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807             l
-            //ulong         64 - bit unsigned integer                                       0 to 18,446,744,073,709,551,615                                     ul
-            //float         32 - bit Single - precision floating point type                 -3.402823e38 to 3.402823e38                                         f
-            //double        64 - bit double-precision floating point type                   -1.79769313486232e308 to 1.79769313486232e308                       d
-            //decimal       128 - bit decimal type for financial and monetary calculations  (+or -)1.0 x 10e-28 to 7.9 x 10e28 m
-            //char          16 - bit single Unicode character                               Any valid character, e.g.a, *, \x0058(hex), or\u0058(Unicode)
-            //bool          8 - bit logical true / false value  True or False
-            //object        Base type of all other types.
-            //string        A sequence of Unicode characters
-            //DateTime      Represents date and time                                        0:00:00am 1 / 1 / 01 to 11:59:59pm 12 / 31 / 9999
 
             //Alias vs .NET Type
             //The predefined data types are alias to their .NET type(CLR class) name.The following table lists alias for predefined data types and related.NET class name.
@@ -78,12 +52,7 @@ namespace day_2_lesson
             //decimal     System.Decimal      struct
             //DateTime    System.DateTime     struct
 
-            //The followings are naming conventions for declaring variables in C#:
-            //1. Variable names must be unique.
-            //2. Variable names can contain letters, digits, and the underscore _ only.
-            //3. Variable names must start with a letter.
-            //4. Variable names are case -sensitive, num and Num are considered different names.
-            //5. Variable names cannot contain reserved keywords. Must prefix @ before keyword if want reserve keywords as identifiers.
+
 
             //Numbers in C#
             //Numbers, in general, can be divided into two types: Integer type and floating-point types.
