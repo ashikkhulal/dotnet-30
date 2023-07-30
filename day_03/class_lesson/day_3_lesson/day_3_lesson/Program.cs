@@ -11,7 +11,8 @@ namespace day_3_lesson
         static void Main(string[] args)
         {
             //objects
-            Car car = new Car(); //syntax: <class-Name> <object-Name> = <new(keyword)> <class-Name()>
+            Car car = new Car(); 
+            //syntax: <class-Name> <object-Name> = <new(keyword)> <class-Name()>
             //car.Color = "Red";
             //car.Model = "Tesla";
             //car.Name = "Mycar";
@@ -24,26 +25,18 @@ namespace day_3_lesson
         //class
         class Car
         {
-            //types of classes:
-            //public -- can be accessed from anywhere
-            //private -- can be accessed from within the class only
-            //protected -- can be accessed within the class and derived classes
-            //internal -- can be accessed from the namespace
-
-            //private properties | syntax: <access-modifier> <return-type> <property-Name> {} or <access-modifier> <return-type> <property-Name> { get {return <Name>; set {<Name> = value;} or <access-modifier> <return-type> <property-Name> { get; set; } (but this last one will be nullable)
+            //private properties
             private string _Name;
             private string _Color;
             private string _Model;
 
-            //public properties | syntax: <access-modifier> <return-type> <property-Name> {} or <access-modifier> <return-type> <property-Name> { get {return <Name>; set {<Name> = value;} or <access-modifier> <return-type> <property-Name> { get; set; } (but this last one will be nullable)
+            //public properties | 
             public string Name { get { return _Name; } set { _Name = value; } }
             //public string Name { get { return Name + " Hot"; } set { Name = value; } } //appending extra value
             public string Color { get { return _Color; } set { _Color = value; } }
             public string Model { get { return _Model; } set { _Model = value; } }
 
-            //Encapsulation, is to make sure that "sensitive" data is hidden from users. To achieve this, you must:
-            //declare fields/variables as private
-            //provide public get and set methods, through properties, to access and update the value of a private field
+            //Encapsulation
 
             //public method or function
             public int Start()  //syntax: <access-modifier> <return-type> <method-Name>

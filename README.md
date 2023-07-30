@@ -8,9 +8,6 @@ Day 1 Topic(s) is / are:
 - C# introduction
 - C# keywords
 - Console application introduction
-- Class
-- Objects
-- Namespace
 
 Day 1 Project: [Console Application Introduction](./day_01/assignment/)
 
@@ -33,9 +30,8 @@ Day 3 Topic(s) is / are:
 
 - Class
 - Objects
-- Properties
 - Encapsulation
-- Methods or functions
+- Methods/ functions
 
 Day 3 Project: [Simple Calculator (with all the concepts learned so far till day 3)](./day_03/assignment/)
 

@@ -173,25 +173,5 @@ namespace day_2_lesson
             //Hold/Stop execution of program until the user presses a key:
             Console.ReadKey();
         }
-
-        //Struct
-        struct Coordinate
-        {
-            public int x;
-            public int y;
-        }
-
-        //constructors in struct
-        struct Coordinate2
-        {
-            public int x;
-            public int y;
-
-            public Coordinate2(int x, int y)
-            {
-                this.x = x;
-                this.y = y;
-            }
-        }
     }
 }

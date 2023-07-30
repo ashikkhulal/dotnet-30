@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ashik\\Videos\\Captures\\Full Stack Dot Net Class\\day_7\\day_3_lesson\\day_3_lesson\\day_3_lesson.csproj": {}
+    "C:\\Users\\ashik\\Videos\\Captures\\Full Stack Dot Net Class\\day_03\\class_lesson\\day_3_lesson\\day_3_lesson\\day_3_lesson.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ashik\\Videos\\Captures\\Full Stack Dot Net Class\\day_7\\day_3_lesson\\day_3_lesson\\day_3_lesson.csproj": {
+    "C:\\Users\\ashik\\Videos\\Captures\\Full Stack Dot Net Class\\day_03\\class_lesson\\day_3_lesson\\day_3_lesson\\day_3_lesson.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ashik\\Videos\\Captures\\Full Stack Dot Net Class\\day_7\\day_3_lesson\\day_3_lesson\\day_3_lesson.csproj",
+        "projectUniqueName": "C:\\Users\\ashik\\Videos\\Captures\\Full Stack Dot Net Class\\day_03\\class_lesson\\day_3_lesson\\day_3_lesson\\day_3_lesson.csproj",
         "projectName": "day_3_lesson",
-        "projectPath": "C:\\Users\\ashik\\Videos\\Captures\\Full Stack Dot Net Class\\day_7\\day_3_lesson\\day_3_lesson\\day_3_lesson.csproj",
+        "projectPath": "C:\\Users\\ashik\\Videos\\Captures\\Full Stack Dot Net Class\\day_03\\class_lesson\\day_3_lesson\\day_3_lesson\\day_3_lesson.csproj",
         "packagesPath": "C:\\Users\\ashik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ashik\\Videos\\Captures\\Full Stack Dot Net Class\\day_7\\day_3_lesson\\day_3_lesson\\obj\\",
+        "outputPath": "C:\\Users\\ashik\\Videos\\Captures\\Full Stack Dot Net Class\\day_03\\class_lesson\\day_3_lesson\\day_3_lesson\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
