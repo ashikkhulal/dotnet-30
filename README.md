@@ -2,7 +2,7 @@
 
 ## [DAY-1](./day_01/class_lesson/)
 
-Day 1 Topic(s) is / are:
+Day 1 Topics are:
 
 - Syllabus
 - C# introduction
@@ -13,7 +13,7 @@ Day 1 Project: [Console Application Introduction](./day_01/assignment/)
 
 ## [DAY-2](./day_02/class_lesson/)
 
-Day 2 Topic(s) is / are:
+Day 2 Topics are:
 
 - Variables
 - Data types
@@ -26,7 +26,7 @@ Day 2 Project: [Simple Calculator](./day_02/assignment/)
 
 ## [DAY-3](./day_03/class_lesson/)
 
-Day 3 Topic(s) is / are:
+Day 3 Topics are:
 
 - Class
 - Objects
@@ -37,7 +37,7 @@ Day 3 Project: [Simple Calculator (with all the concepts learned so far till day
 
 ## [DAY-4](./day_04/class_lesson/)
 
-Day 4 Topic(s) is / are:
+Day 4 Topics are:
 
 - C# type casting
 - Conditions
@@ -53,7 +53,7 @@ Day 4 Project: [College Admin Portal](./day_04/assignment/)
 
 ## [DAY-5](./day_05/class_lesson/)
 
-Day 5 Topic(s) is / are:
+Day 5 Topics are:
 
 - Multidimensional arrays (arrays contd.)
 - Jagged arrays (arrays contd.)
@@ -64,7 +64,7 @@ Day 5 Project: [College Admin Portal (with all the concepts learned so far till 
 
 ## [DAY-6](./day_06/class_lesson/)
 
-Day 6 Topic(s) is / are:
+Day 6 Topics are:
 
 - Inheritance in c#
 - Polymorphism
@@ -75,7 +75,7 @@ Day 6 Project: [College Admin Portal (with all the concepts learned so far till 
 
 ## [DAY-7](./day_07/class_lesson/)
 
-Day 7 Topic(s) is / are:
+Day 7 Topics are:
 
 - Interfaces in c#
 - C# enum
@@ -86,7 +86,7 @@ Day 7 Project: [College Admin Portal (with all the concepts learned so far till 
 
 ## [DAY-8](./day_08/class_lesson/)
 
-Day 8 Topic(s) is / are:
+Day 8 Topics are:
 
 - User-defined exceptions in c#
 - C# generics
@@ -97,7 +97,7 @@ Day 8 Project: [College Admin Portal (with all the concepts learned so far till 
 
 ## [DAY-9](./day_09/class_lesson/)
 
-Day 9 Topic(s) is / are:
+Day 9 Topic is:
 
 - ASP.NET Introduction
 
@@ -105,7 +105,7 @@ Day 9 Project: [ASP.NET Introduction Project](./day_09/assignment/)
 
 ## [DAY-10](./day_10/class_lesson/)
 
-Day 10 Topic(s) is / are:
+Day 10 Topic is:
 
 - HTML Introduction
 
@@ -113,7 +113,7 @@ Day 10 Project: [HTML Deeper dive (Self Study)](./day_10/assignment/)
 
 ## [DAY-11](./day_11/class_lesson/)
 
-Day 11 Topic(s) is / are:
+Day 11 Topic is:
 
 - Diving deeper into ASP.NET web application
 
@@ -121,19 +121,20 @@ Day 11 Project: [ASP.NET Web Project](./day_11/assignment/)
 
 ## [DAY-12](./day_12/class_lesson/)
 
-Day 12 Topic(s) is / are:
+Day 12 Topics are:
 
 - Diving deeper into ASP.NET web application components
 
 Day 12 Project: [ASP.NET Web Page Life Cycle Event Project](./day_12/assignment/)
 
-## [DAY-13](./day_13/class_lesson/)
+## [DAY-13](./day_13/)
 
-Day 13 Topic(s) is / are:
+Day 13 Topics are:
 
-- 
+- HTML deeper dive
+- CSS introduction and deep dive
 
-Day 13 Project: [](./day_13/assignment/)
+Day 13 Project: [](./day_13/html-and-css-crash-course/)
 
 ## [DAY-14](./day_14/class_lesson/)
 
@@ -235,10 +236,3 @@ Day 25 Topic(s) is / are:
 - Entity framework (database first approach)
 
 Day 25 Project: None
-
----
-## [Other Projects](./other_projects/)
-
-Other sample projects using C#:
-
-- [My Notepad](./other_projects/)

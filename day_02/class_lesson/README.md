@@ -1,10 +1,9 @@
 # Day 2
 
-Day 2 Topic(s) is / are:
+Day 2 Topics are:
 
 - Variables
 - Data types
-- Data types conversion
 - String concatenation and interpolation
 - Printing output
 - User input into variables
@@ -162,11 +161,6 @@ The DateTime struct includes static fields, properties, and methods.
 **TimeSpan** is a struct that is used to represent time in days, hour, minutes, seconds, and milliseconds. Subtraction of two dates results in TimeSpan.
 
 The DateTime struct overloads +, -, ==, !=, >, <, <=, >= operators to ease out addition, subtraction, and comparison of dates. These make it easy to work with dates.
-
-## Data-type conversions:
-The values of certain data types are automatically converted to different data types in C#. This is called an implicit conversion.
-
-However, not all data types are implicitly converted to other data types. It must be specified explicitly.
 
 ## String Concatenation:
 Multiple strings can be concatenated with **+** operator.

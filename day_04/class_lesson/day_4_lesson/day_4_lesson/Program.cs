@@ -1,16 +1,24 @@
 ﻿//day 4 Class
-//1. c# type casting
-//2. conditions and if statements
 namespace day_4_lesson
 {
     class Program
     {
         static void Main(string[] args)
         {
-            //type casting: when you assign a value of one data to another type
-            //implicit casting: automatically - converting a smaller type to a larger type size
-            //explicit casting: manually - converting a larger type to a smaller size type
+            //type casting
+            int myInt = 9;
+            double myDouble = myInt;       // Automatic casting: int to double
 
+            double myDouble2 = 9.78;
+            int myInt2 = (int)myDouble2;    // Manual casting: double to int
+
+            int myInt3 = 10;
+            double myDouble3 = 5.25;
+            bool myBool = true;
+            Console.WriteLine(Convert.ToString(myInt3));    // convert int to string
+            Console.WriteLine(Convert.ToDouble(myInt3));    // convert int to double
+            Console.WriteLine(Convert.ToInt32(myDouble3));  // convert double to int
+            Console.WriteLine(Convert.ToString(myBool));   // convert bool to string
 
             //conditions: a < b | a <=b | a > b | a >= b | a == b | a !=b
             //if statements: if | else | else if | switch

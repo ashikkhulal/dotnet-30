@@ -1,6 +1,6 @@
 # DAY-3
 
-Day 3 Topic(s) is / are:
+Day 3 Topics are:
 
 - Class
 - Objects

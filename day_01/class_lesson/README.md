@@ -1,6 +1,6 @@
 # Day 1 
 
-Day 1 Topic(s) is / are:
+Day 1 Topics are:
 
 - Syllabus
 - C# introduction
