@@ -1,0 +1,15 @@
+C:\Users\ashik\Videos\Captures\Full Stack Dot Net Class\day_14\class_lesson\Giraffe\Giraffe\bin\Debug\net6.0\Giraffe.exe
+C:\Users\ashik\Videos\Captures\Full Stack Dot Net Class\day_14\class_lesson\Giraffe\Giraffe\bin\Debug\net6.0\Giraffe.deps.json
+C:\Users\ashik\Videos\Captures\Full Stack Dot Net Class\day_14\class_lesson\Giraffe\Giraffe\bin\Debug\net6.0\Giraffe.runtimeconfig.json
+C:\Users\ashik\Videos\Captures\Full Stack Dot Net Class\day_14\class_lesson\Giraffe\Giraffe\bin\Debug\net6.0\Giraffe.dll
+C:\Users\ashik\Videos\Captures\Full Stack Dot Net Class\day_14\class_lesson\Giraffe\Giraffe\bin\Debug\net6.0\Giraffe.pdb
+C:\Users\ashik\Videos\Captures\Full Stack Dot Net Class\day_14\class_lesson\Giraffe\Giraffe\obj\Debug\net6.0\Giraffe.csproj.AssemblyReference.cache
+C:\Users\ashik\Videos\Captures\Full Stack Dot Net Class\day_14\class_lesson\Giraffe\Giraffe\obj\Debug\net6.0\Giraffe.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ashik\Videos\Captures\Full Stack Dot Net Class\day_14\class_lesson\Giraffe\Giraffe\obj\Debug\net6.0\Giraffe.AssemblyInfoInputs.cache
+C:\Users\ashik\Videos\Captures\Full Stack Dot Net Class\day_14\class_lesson\Giraffe\Giraffe\obj\Debug\net6.0\Giraffe.AssemblyInfo.cs
+C:\Users\ashik\Videos\Captures\Full Stack Dot Net Class\day_14\class_lesson\Giraffe\Giraffe\obj\Debug\net6.0\Giraffe.csproj.CoreCompileInputs.cache
+C:\Users\ashik\Videos\Captures\Full Stack Dot Net Class\day_14\class_lesson\Giraffe\Giraffe\obj\Debug\net6.0\Giraffe.dll
+C:\Users\ashik\Videos\Captures\Full Stack Dot Net Class\day_14\class_lesson\Giraffe\Giraffe\obj\Debug\net6.0\refint\Giraffe.dll
+C:\Users\ashik\Videos\Captures\Full Stack Dot Net Class\day_14\class_lesson\Giraffe\Giraffe\obj\Debug\net6.0\Giraffe.pdb
+C:\Users\ashik\Videos\Captures\Full Stack Dot Net Class\day_14\class_lesson\Giraffe\Giraffe\obj\Debug\net6.0\Giraffe.genruntimeconfig.cache
+C:\Users\ashik\Videos\Captures\Full Stack Dot Net Class\day_14\class_lesson\Giraffe\Giraffe\obj\Debug\net6.0\ref\Giraffe.dll

@@ -140,17 +140,13 @@ Day 13 Project: [](./day_13/html-and-css-crash-course/)
 
 Day 14 Topic(s) is / are:
 
-- 
-
-Day 14 Project: [](./day_14/assignment/)
+- Revison of C# concepts learned so far.
 
 ## [DAY-15](./day_15/class_lesson/)
 
 Day 15 Topic(s) is / are:
 
-- 
-
-Day 15 Project: [](./day_15/assignment/)
+- C# Full Course - Learn C# 10 and .NET 6 in 7 hours 
 
 ## [DAY-16](./day_16/class_lesson/)
 
