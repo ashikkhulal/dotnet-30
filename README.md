@@ -146,7 +146,7 @@ Day 14 Topic(s) is / are:
 
 Day 15 Topic(s) is / are:
 
-- C# Full Course - Learn C# 10 and .NET 6 in 7 hours 
+- Javascript basics 
 
 ## [DAY-16](./day_16/class_lesson/)
 
