@@ -152,9 +152,7 @@ Day 15 Topic(s) is / are:
 
 Day 16 Topic(s) is / are:
 
-- 
-
-Day 16 Project: [](./day_16/assignment/)
+- Javascript fundamentals
 
 ## [DAY-17](./day_17/class_lesson/)
 
